@@ -1,6 +1,11 @@
 # AtPI
 Open-source APIs. 
 
+### Python APIs
+APIs from [index.py](https://github.com/AtlasL1/AtPI/blob/main/index.py) are built with [FastAPI](https://fastapi.tiangolo.com/), a web framework. <br>
+Those APIs are yet ready to be used until I find a suitable host for them. At the moment, you can use the JSON APIs.
+
+### JSON APIs
 APIs from [/api](https://github.com/AtlasL1/AtPI/tree/main/api) are static JSON APIs under the endpoint URL `https://atlas.is-not-a.dev/atpi/{name}.json` or `https://atpi.proj.sbs/api/{name}.json`.
 
 **Quick Example**:
