@@ -1,7 +1,7 @@
 # AtPI
 Open-source APIs. 
 
-APIs from [/api](https://github.com/AtlasL1/AtPI/tree/main/api) are static JSON APIs under the endpoint URL `https://atlas.is-not-a.dev/atpi/{name}.json`.
+APIs from [/api](https://github.com/AtlasL1/AtPI/tree/main/api) are static JSON APIs under the endpoint URL `https://atlas.is-not-a.dev/atpi/{name}.json` or `https://atpi.proj.sbs/api/{name}.json`.
 
 **Quick Example**:
 ```py
