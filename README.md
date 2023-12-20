@@ -16,6 +16,11 @@ import requests
 response = requests.get('https://atpi.proj.sbs/api/bioe.json')
 data = response.json()
 print(data['questions'].get('1'))
+print(data['answers'].get('1'))
+```
+```
+Stem cells are important for living organisms because they are cells which will undergo cell division and cell differentiation to form tissues and organs such as the heart, lungs and skin. Embryonic stem cells are widely used in stem cell research for medical purposes. Discuss how stem cell research is beneficial to human health.
+Stem-cell research is a research that is carried out on stem cells for use in medicine. The research is important in treating diseases. The stem cells can be used in treating blood cancer such as leukemia and replacing damaged tissues and organs. For example, the production of nerve tissues to treat Alzheimer's and Parkinson's disease and producing new heart muscles to treat heart problems.
 ```
 The above code is a quick usage of the [BioE API](https://atpi.proj.sbs/api/bioe.json).
 1. I retrieved the data with the Python package [Requests](https://pypi.org/project/requests/).
