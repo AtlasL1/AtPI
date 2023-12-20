@@ -1,7 +1,7 @@
 > Docs coming soon!
 
-# AtPI
-Open-source APIs. 
+# AtPI.Proj.SBS
+Open-source APIs at AtPI, project, side-by-side. 
 
 ### Python APIs
 APIs from [index.py](https://github.com/AtlasL1/AtPI/blob/main/index.py) are built with [FastAPI](https://fastapi.tiangolo.com/), a web framework. <br><br>
@@ -29,3 +29,5 @@ The above code is a quick usage of the [BioE API](https://atpi.proj.sbs/api/bioe
    - Note: The question ID It is a string (`str`), and not an integer (`int`). 
 4. The fifth line works the same as the fourth, except I used it to retrieve the answer of the first question instead. 
 5. The second code block is the output in the terminal after running the code. 
+
+> Domain: [proj.sbs](https://proj.sbs)
