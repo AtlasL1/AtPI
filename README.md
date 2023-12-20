@@ -13,7 +13,7 @@ APIs from [/api](https://github.com/AtlasL1/AtPI/tree/main/api) are static JSON 
 **Quick Example**:
 ```py
 import requests
-response = requests.get('https://atlas.is-not-a.dev/atpi/bioe.json')
+response = requests.get('https://atpi.proj.sbs/api/bioe.json')
 data = response.json()
 print(data['questions'].get('1'))
 ```
