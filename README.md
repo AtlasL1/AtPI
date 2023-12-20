@@ -1,7 +1,7 @@
 > Better site coming soon!
 
 # AtPI.Proj.SBS
-AtPI = Atlas + API
+AtPI = Atlas + API <br>
 Proj.SBS = Project + Side by Side 
 
 ### Python APIs
