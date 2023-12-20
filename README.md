@@ -1,4 +1,4 @@
-<style>
+<html><style>
 @import "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css";
 
 body {
