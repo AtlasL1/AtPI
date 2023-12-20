@@ -1,7 +1,8 @@
 > Better site coming soon!
 
 # AtPI.Proj.SBS
-Open-source APIs at AtPI, project, side-by-side. 
+AtPI = Atlas + API
+Proj.SBS = Project + Side by Side 
 
 ### Python APIs
 APIs from [index.py](https://github.com/AtlasL1/AtPI/blob/main/index.py) are built with [FastAPI](https://fastapi.tiangolo.com/), a web framework. <br><br>
