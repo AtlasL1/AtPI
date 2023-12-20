@@ -1,4 +1,4 @@
-> Docs coming soon!
+> Better site coming soon!
 
 # AtPI.Proj.SBS
 Open-source APIs at AtPI, project, side-by-side. 
