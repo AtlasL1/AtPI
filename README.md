@@ -30,4 +30,4 @@ The above code is a quick usage of the [BioE API](https://atpi.proj.sbs/api/bioe
 4. The fifth line works the same as the fourth, except I used it to retrieve the answer of the first question instead. 
 5. The second code block is the output in the terminal after running the code. 
 
-> Domain from [proj.sbs](https://proj.sbs)
+> Domain from [proj-at](https://github.com/proj-at)
