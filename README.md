@@ -4,7 +4,7 @@
 > AtPI = Atlas + API <br> Proj.SBS = Project + Side by Side 
 
 ### Python APIs
-APIs from [index.py](https://github.com/AtlasL1/AtPI/blob/main/index.py) are built with [FastAPI](https://fastapi.tiangolo.com/), a web framework. <br><br>
+APIs from [index.py](https://github.com/AtlasL1/AtPI/blob/main/api/py/index.py) are built with [FastAPI](https://fastapi.tiangolo.com/), a web framework. <br><br>
 Those APIs are yet ready to be used until I find a suitable host for them. At the moment, you can use the JSON APIs.
 
 ### JSON APIs
