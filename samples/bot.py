@@ -50,4 +50,4 @@ async def bio(interaction, number: str):
     except Exception as e:
         await interaction.followup.send(f'Error fetching data: {e}', ephemeral=True)
 
-bot.run('MTE4NDc4MzU4NjQ3NDMyODExNA.Go85dU.0CcsvIgeHX98NU4CFV8RXZs158jZuTFP_qOdZk')
+bot.run('TOKEN')
