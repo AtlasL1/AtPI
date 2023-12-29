@@ -1,4 +1,4 @@
-> [Site](https://atpi.proj.sbs) out now!
+> [Site](https://atpi.proj.sbs) out now! <br>
 > Check out the status of AtPI at [GitHub Projects](https://github.com/users/AtlasL1/projects/6).
 
 # AtPI.Proj.SBS
