@@ -1,4 +1,4 @@
-> Better site coming soon when I make more APIs!
+> [Site](https://atpi.proj.sbs) out now! 
 
 # AtPI.Proj.SBS
 > AtPI = Atlas + API <br> Proj.SBS = Project + Side by Side 
