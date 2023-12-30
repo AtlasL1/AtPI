@@ -2,14 +2,10 @@
 > Check out the status of AtPI at [GitHub Projects](https://github.com/users/AtlasL1/projects/6).
 
 # AtPI.Proj.SBS
-> AtPI = Atlas + API <br> Proj.SBS = Project + Side by Side 
-
-### Python APIs
-APIs from [index.py](https://github.com/AtlasL1/AtPI/blob/main/api/py/index.py) are built with [FastAPI](https://fastapi.tiangolo.com/), a web framework. <br><br>
-Those APIs are yet ready to be used until I find a suitable host for them. At the moment, you can use the JSON APIs.
+> AtPI = Atlas + API <br> Proj.SBS = Project + Side by Side .com/), a web framework. <br><br>
 
 ### JSON APIs
-APIs from [/api](https://github.com/AtlasL1/AtPI/tree/main/api) are static JSON APIs under the endpoint URL `https://atlas.is-not-a.dev/atpi/{name}.json` or `https://atpi.proj.sbs/api/{name}.json`.
+APIs from [/api](https://github.com/AtlasL1/AtPI/tree/main/api) are static JSON APIs under the endpoint URL `https://atpi.proj.sbs/api/{name}.json`.
 
 **Quick Example**:
 ```py
