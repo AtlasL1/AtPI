@@ -2,7 +2,7 @@
 > Check out the status of AtPI at [GitHub Projects](https://github.com/users/AtlasL1/projects/6).
 
 # AtPI.Proj.SBS
-> AtPI = Atlas + API <br> Proj.SBS = Project + Side by Side .com/), a web framework. <br>
+> AtPI = Atlas + API <br> Proj.SBS = Project + Side by Side) <br>
 
 ### JSON APIs
 APIs from [/api](https://github.com/AtlasL1/AtPI/tree/main/api) are static JSON APIs under the endpoint URL `https://atpi.proj.sbs/api/{name}.json`.
