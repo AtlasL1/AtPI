@@ -1,13 +1,22 @@
 import discord
 from discord.ext import commands
 import requests
+import random
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
     print('Logged in as AtPI#1479.')
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.custom, name=" ", state="🌐 https://atpi.proj.sbs"))
     await bot.tree.sync()
+
+@bot.tree.command(name="welcome", description="Fetch the text from Welcome to AtPI.")
+async def welcome(interaction):
+    response = requests.get('https://atpi.proj.sbs/api/welcome.json')
+    data = response.json()
+    welcome_text = data["message"]
+    await interaction.response.send_message(welcome_text)
 
 @bot.tree.command(name="bio-question", description="Fetch a random biology question from the BioE API.")
 async def bio(interaction, number: str):
@@ -49,5 +58,48 @@ async def bio(interaction, number: str):
             await interaction.response.send_message(f'Question No. {number} not found.', ephemeral=True)
     except Exception as e:
         await interaction.followup.send(f'Error fetching data: {e}', ephemeral=True)
+
+@bot.tree.command(name="space-fact", description="Fetch a random space fact from the Space Fact API.")
+async def space(interaction):
+    api_url = 'https://atpi.proj.sbs/api/space-facts.json'
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()
+        data = response.json()
+        number = str(random.randint(1, 200))
+        if number in data['facts']:
+            random_fact = data['facts'][number]
+            embed = discord.Embed(
+                title='Space Facts',
+                description=f'{random_fact}',
+                colour=discord.Colour.gold()
+            )
+            embed.set_image(url='https://wallpapers.com/images/featured/dark-galaxy-wturp0ytecb3kpqq.jpg')
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message('Error: Invalid random fact number.', ephemeral=True)
+    except requests.RequestException as e:
+        await interaction.response.send_message(f'Error fetching space facts: {e}', ephemeral=True)
+
+@bot.tree.command(name="country-capitals", description="Fetch the capital city of a specific country from the Countries and Capitals API.")
+async def capital(interaction, country: str):
+    try:
+        response = requests.get('https://atpi.proj.sbs/api/world-capitals.json')
+        response.raise_for_status()
+        data = response.json()
+        country_info = next((item for item in data if item["name"].lower() == country.lower()), None)
+        if country_info:
+            capital = country_info["capital"]
+            embed = discord.Embed(
+                title='Countries and Capitals',
+                description=f'The capital of {country_info["name"]} is {capital}.',
+                colour=discord.Colour.blurple()
+            )
+            embed.set_thumbnail(url=f'{country_info["image"]}')
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message(f"Country not found in the data.", ephemeral=True)
+    except requests.exceptions.RequestException as e:
+        await interaction.response.send_message(f"**An error occurred while fetching data from the API**:\n{e}", ephemeral=True)
 
 bot.run('TOKEN')
