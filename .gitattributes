@@ -2,4 +2,4 @@
 *.css linguist-vendored
 *.js linguist-vendored
 *.graphql linguist-detectable
-quickstart/*.json linguist-detectable
+*.json linguist-detectable
