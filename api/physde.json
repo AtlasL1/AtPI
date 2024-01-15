@@ -70,5 +70,5 @@
   {"term": "Object distance", "definition": "Object distance refers to the distance between object and optical centre."},
   {"term": "Image distance", "definition": "Image distance refers to the distance between image and optical centre."},
   {"term": "Linear magnification", "definition": "Linear (lateral / transverse) magnification refers to the ratio of image length to object length measured in planes that are perpendicular to the optical axis."},
-  {"term": "Centre of curvature", "definition": "The centre of the sphere from which a curved mirror is formed."},
+  {"term": "Centre of curvature", "definition": "The centre of the sphere from which a curved mirror is formed."}
 ]
