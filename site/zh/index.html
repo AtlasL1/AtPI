@@ -5,7 +5,7 @@
   <title>AtPI.Proj.SBS</title>
   <link rel="icon" href="https://cdn.discordapp.com/attachments/1146406609094967337/1195695010679627826/2e2b58e005e91f684ad7f5f69ff2fd65-modified.png" sizes="32x32">
   <meta name="format-detection" content="telephone=no">
-  <meta name="theme-color" content="#000">
+  <meta name="theme-color" content="#607d8b">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-touch-fullscreen" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -212,7 +212,7 @@
   <meta name="generator" content="Hexo 6.3.0">
 <link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/space-facts.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/world-capitals.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/physde.json" fetchpriority="high" as="document"></head>
 
-<body data-type="anzhiyu" style="overflow: auto;">
+<body data-type="anzhiyu" style="overflow: auto; padding-right: 8px;">
   <div id="web_bg"></div>
   <div id="an_music_bg"></div>
     
@@ -251,12 +251,12 @@
     }
   </script>
 
-  <div id="web_box">
-    <div id="web_container">
-      <div id="menu-mask"></div>
+  <div id="web_box" class="open">
+    <div id="web_container" style="background: var(--global-bg);">
+      <div id="menu-mask" style="display: block; animation: 0.5s ease 0s 1 normal none running to_show;"></div>
       <div class="page" id="body-wrap">
         <header class="not-top-img" id="page-header">
-          <nav id="nav" class="show">
+          <nav id="nav" class="show hide-menu" style="border-top-left-radius: 12px;">
             <div id="nav-group">
               <span id="blog_name">
                 
@@ -358,8 +358,8 @@
                   </div>
                   <div class="console-mask" onclick="anzhiyu.hideConsole()"></div>
                 </div>
-                <div class="nav-button long" id="nav-totop"><a class="totopbtn" draggable="false"><i class=""></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">Top</span></a></div>
-                <div id="toggle-menu"><a class="site-page" draggable="false"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div>
+                <div class="nav-button" id="nav-totop"><a class="totopbtn" draggable="false"><i class=""></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">1</span></a></div>
+                
               </div>
             </div>
           </nav>
@@ -589,7 +589,7 @@
     </div>
   </div>
   <div id="sidebar">
-    <div id="sidebar-menus">
+    <div id="sidebar-menus" class="open">
       <div class="avatar-img is-center"><img src="https://media.discordapp.net/attachments/1146406609094967337/1176450910117957713/Screenshot_2023-11-18_162030.png?ex=65815f4a&amp;is=656eea4a&amp;hm=927b68b39fce73ad1f79c72d641a425dcc710dd56433d50e615990e88bf1d5bc&amp;=&amp;format=webp&amp;quality=lossless&amp;width=645&amp;height=662" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://media.discordapp.net/attachments/1146406609094967337/1176450910117957713/Screenshot_2023-11-18_162030.png?ex=65815f4a&amp;is=656eea4a&amp;hm=927b68b39fce73ad1f79c72d641a425dcc710dd56433d50e615990e88bf1d5bc&amp;=&amp;format=webp&amp;quality=lossless&amp;width=645&amp;height=662" alt="avatar" data-ll-status="loaded" class="entered loaded"></div>
       <div class="sidebar-site-data site-data is-center">
         <a href="" title="archive" draggable="false">
@@ -841,7 +841,7 @@
 
     setInputFocusListener()
   </script>
-  <div id="rightside" style="opacity: 0.8; transform: translateX(-58px);">
+  <div id="rightside" style="" class="hide">
     <div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Mode"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="Screen Size"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div>
 
   <div id="local-search">
@@ -939,7 +939,7 @@
 
       document.addEventListener('DOMContentLoaded', panguInit)
     </script>
-    <canvas id="universe" width="995" height="730"></canvas>
+    <canvas id="universe" width="277" height="738"></canvas>
     <script async="" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script>
     <script async="" src="/anzhiyu/random.js"></script>
     <script async="async">(function () {
@@ -1662,5 +1662,6 @@
 
 
 </a></div>
+
 
 </body></html>
