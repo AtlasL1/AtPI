@@ -156,4 +156,85 @@ async def capital(interaction, term: str):
     except requests.exceptions.RequestException as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
+@bot.tree.command(name='chemistry-definition', description='Fetch the definition of a Chemistry term.')
+async def capital(interaction, term: str):
+    try:
+        response = requests.get('https://atpi.proj.sbs/api/chemde.json')
+        data = response.json()
+        chem_def = next((item for item in data if item["term"].lower() == term.lower()), None)
+        if chem_def:
+            data_term = chem_def["term"]
+            definition = chem_def["definition"]
+            embed = discord.Embed(
+                title='ChemDe',
+                description=f'**Term**: \n{data_term}\n\n'
+                            f'**Definition**: \n{definition}',
+                colour=discord.Colour.dark_teal()
+            )
+            embed.set_image(
+                url='https://i.imgur.com/S2MI8QW.jpg'
+            )
+            embed.set_footer(
+                text='https://atpi.proj.sbs/chemde.json'
+            )
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message(f'Term `\'{term}\'` not found in the data.', ephemeral=True)
+    except requests.exceptions.RequestException as e:
+        await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
+
+@bot.tree.command(name='化学词汇', description='获取化学术语的定义。')
+async def capital(interaction, 词: str):
+    try:
+        response = requests.get('https://atpi.proj.sbs/api/zh/化学词汇.json')
+        data = response.json()
+        chem_def = next((item for item in data if item["词"].lower() == 词.lower()), None)
+        if chem_def:
+            data_term = chem_def["词"]
+            definition = chem_def["定义"]
+            embed = discord.Embed(
+                title='ChemDe - 中文',
+                description=f'**词**: \n{data_term}\n\n'
+                            f'**定义**: \n{definition}',
+                colour=discord.Colour.dark_teal()
+            )
+            embed.set_image(
+                url='https://i.imgur.com/S2MI8QW.jpg'
+            )
+            embed.set_footer(
+                text='https://atpi.proj.sbs/api/zh/化学词汇.json'
+            )
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message(f'Term `\'{词}\'` not found in the data.', ephemeral=True)
+    except requests.exceptions.RequestException as e:
+        await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
+
+@bot.tree.command(name='oпределения-xимии', description='Дайте определение этому термину в химии.')
+async def capital(interaction, термин: str):
+    try:
+        response = requests.get('https://atpi.proj.sbs/api/ru/oпределенияхимии.json')
+        data = response.json()
+        chem_def = next((item for item in data if item["термин"].lower() == термин.lower()), None)
+        if chem_def:
+            data_term = chem_def["термин"]
+            definition = chem_def["определение"]
+            embed = discord.Embed(
+                title='ChemDe - Русский',
+                description=f'**термин**: \n{data_term}\n\n'
+                            f'**определение**: \n{definition}',
+                colour=discord.Colour.dark_teal()
+            )
+            embed.set_image(
+                url='https://i.imgur.com/S2MI8QW.jpg'
+            )
+            embed.set_footer(
+                text='https://atpi.proj.sbs/api/ru/oпределенияхимии.json'
+            )
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message(f'Term `\'{термин}\'` not found in the data.', ephemeral=True)
+    except requests.exceptions.RequestException as e:
+        await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
+
 bot.run('TOKEN')
