@@ -210,7 +210,7 @@
   </script>
   <link rel="stylesheet" href="/site/css/custom.css">
   <meta name="generator" content="Hexo 6.3.0">
-<link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/world-capitals.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/physde.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/space-facts.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/chemde.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ru" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ms" as="document"></head>
+<link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/world-capitals.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/physde.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/space-facts.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/chemde.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ru" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ms" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" fetchpriority="high" as="document"></head>
 
 <body data-type="anzhiyu" style="overflow: auto;">
   <div id="web_bg"></div>
@@ -251,12 +251,12 @@
     }
   </script>
 
-  <div id="web_box">
-    <div id="web_container">
-      <div id="menu-mask"></div>
+  <div id="web_box" class="" style="transition: all 0.3s ease-out 0s; transform: none;">
+    <div id="web_container" style="background: var(--global-bg);">
+      <div id="menu-mask" style="animation: 0.5s ease 0s 1 normal none running to_hide;"></div>
       <div class="page" id="body-wrap">
         <header class="not-top-img" id="page-header">
-          <nav id="nav" class="show">
+          <nav id="nav" class="show hide-menu" style="border-top-left-radius: 0px;">
             <div id="nav-group">
               <span id="blog_name">
                 
@@ -359,7 +359,7 @@
                   <div class="console-mask" onclick="anzhiyu.hideConsole()"></div>
                 </div>
                 <div class="nav-button" id="nav-totop"><a class="totopbtn" draggable="false"><i class=""></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">1</span></a></div>
-                <div id="toggle-menu"><a class="site-page" draggable="false"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div>
+                
               </div>
             </div>
           </nav>
@@ -694,7 +694,7 @@
     </div>
   </div>
   <div id="sidebar">
-    <div id="sidebar-menus">
+    <div id="sidebar-menus" class="">
       <div class="avatar-img is-center"><img src="https://media.discordapp.net/attachments/1146406609094967337/1176450910117957713/Screenshot_2023-11-18_162030.png?ex=65815f4a&amp;is=656eea4a&amp;hm=927b68b39fce73ad1f79c72d641a425dcc710dd56433d50e615990e88bf1d5bc&amp;=&amp;format=webp&amp;quality=lossless&amp;width=645&amp;height=662" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://media.discordapp.net/attachments/1146406609094967337/1176450910117957713/Screenshot_2023-11-18_162030.png?ex=65815f4a&amp;is=656eea4a&amp;hm=927b68b39fce73ad1f79c72d641a425dcc710dd56433d50e615990e88bf1d5bc&amp;=&amp;format=webp&amp;quality=lossless&amp;width=645&amp;height=662" alt="avatar" data-ll-status="loaded" class="entered loaded"></div>
       <div class="sidebar-site-data site-data is-center">
         <a href="" title="archive" draggable="false">
@@ -946,7 +946,7 @@
 
     setInputFocusListener()
   </script>
-  <div id="rightside" style="">
+  <div id="rightside" style="" class="">
     <div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Mode"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="Screen Size"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div>
 
   <div id="local-search">
@@ -1044,7 +1044,7 @@
 
       document.addEventListener('DOMContentLoaded', panguInit)
     </script>
-    <canvas id="universe" width="1036" height="731"></canvas>
+    <canvas id="universe" width="355" height="735"></canvas>
     <script async="" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script>
     <script async="" src="/anzhiyu/random.js"></script>
     <script async="async">(function () {
@@ -1767,6 +1767,7 @@
 
 
 </a></div>
+
 
 
 </body></html>
