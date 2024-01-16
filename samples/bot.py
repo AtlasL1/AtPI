@@ -48,7 +48,7 @@ async def bio(interaction, number: str):
                             url='https://images-ext-1.discordapp.net/external/SzJ7hRJt1M3iG1kJUZ8gvjK5MzeW1bkIQFwZoGOxpss/%3Fw%3D2000/https/img.freepik.com/premium-vector/cartoon-drawing-scientist_29937-8181.jpg'
                         )
                         embed.set_footer(
-                            text='https://atpi.proj.sbs/bioe.json'
+                            text='https://atpi.proj.sbs/api/bioe.json'
                         )
                         await interaction.followup.send(embed=embed)
                     else:
@@ -68,7 +68,7 @@ async def bio(interaction, number: str):
                 url='https://t4.ftcdn.net/jpg/00/55/49/83/360_F_55498353_bK3PSjjKfXUwCcEB4SKqyCRfoFbe5gmX.jpg'
             )
             embed.set_footer(
-                text='https://atpi.proj.sbs/bioe.json'
+                text='https://atpi.proj.sbs/api/bioe.json'
             )
             await interaction.response.send_message(embed=embed, view=BioAnswer())
         else:
@@ -95,7 +95,7 @@ async def space(interaction):
                 url='https://wallpapers.com/images/featured/dark-galaxy-wturp0ytecb3kpqq.jpg'
             )
             embed.set_footer(
-                text='https://atpi.proj.sbs/space-facts.json'
+                text='https://atpi.proj.sbs/api/space-facts.json'
             )
             await interaction.response.send_message(embed=embed)
         else:
@@ -121,7 +121,7 @@ async def capital(interaction, country: str):
                 url=f'{country_info["image"]}'
             )
             embed.set_footer(
-                text='https://atpi.proj.sbs/world-capitals.json'
+                text='https://atpi.proj.sbs/api/world-capitals.json'
             )
             await interaction.response.send_message(embed=embed)
         else:
@@ -148,7 +148,7 @@ async def capital(interaction, term: str):
                 url='https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2023/12/120623_ec_quantum-gravity_feat.jpg'
             )
             embed.set_footer(
-                text='https://atpi.proj.sbs/physde.json'
+                text='https://atpi.proj.sbs/api/physde.json'
             )
             await interaction.response.send_message(embed=embed)
         else:
@@ -175,7 +175,7 @@ async def capital(interaction, term: str):
                 url='https://i.imgur.com/S2MI8QW.jpg'
             )
             embed.set_footer(
-                text='https://atpi.proj.sbs/chemde.json'
+                text='https://atpi.proj.sbs/api/chemde.json'
             )
             await interaction.response.send_message(embed=embed)
         else:
@@ -193,7 +193,7 @@ async def capital(interaction, 词: str):
             data_term = chem_def["词"]
             definition = chem_def["定义"]
             embed = discord.Embed(
-                title='ChemDe - 中文',
+                title='化学词汇',
                 description=f'**词**: \n{data_term}\n\n'
                             f'**定义**: \n{definition}',
                 colour=discord.Colour.dark_teal()
@@ -210,6 +210,33 @@ async def capital(interaction, 词: str):
     except requests.exceptions.RequestException as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
+@bot.tree.command(name='definisi-kimia', description='Cari definisi suatu istilah Kimia.')
+async def capital(interaction, perkataan: str):
+    try:
+        response = requests.get('https://atpi.proj.sbs/api/ms/defkimia.json')
+        data = response.json()
+        chem_def = next((item for item in data if item["perkataan"].lower() == perkataan.lower()), None)
+        if chem_def:
+            data_term = chem_def["perkataan"]
+            definition = chem_def["definisi"]
+            embed = discord.Embed(
+                title='Definisi Kimia',
+                description=f'**Perkataan**: \n{data_term}\n\n'
+                            f'**Definisi**: \n{definition}',
+                colour=discord.Colour.dark_teal()
+            )
+            embed.set_image(
+                url='https://i.imgur.com/S2MI8QW.jpg'
+            )
+            embed.set_footer(
+                text='https://atpi.proj.sbs/api/ms/defkimia.json'
+            )
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message(f'Term `\'{term}\'` not found in the data.', ephemeral=True)
+    except requests.exceptions.RequestException as e:
+        await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
+
 @bot.tree.command(name='oпределения-xимии', description='Дайте определение этому термину в химии.')
 async def capital(interaction, термин: str):
     try:
@@ -220,7 +247,7 @@ async def capital(interaction, термин: str):
             data_term = chem_def["термин"]
             definition = chem_def["определение"]
             embed = discord.Embed(
-                title='ChemDe - Русский',
+                title='Oпределения Xимии',
                 description=f'**термин**: \n{data_term}\n\n'
                             f'**определение**: \n{definition}',
                 colour=discord.Colour.dark_teal()
