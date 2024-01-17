@@ -1,0 +1,4226 @@
+[
+  {
+    "name": "A#",
+    "paradigm": "Unknown",
+    "designer": "Dr. Martin C. Carlisle, Lt Col Ricky Sward, Maj Jeff Humphries",
+    "releaseYear": "2004"
+  },
+  {
+    "name": "A-0 System",
+    "paradigm": "Unknown",
+    "designer": "Grace Murray Hopper",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "A+",
+    "paradigm": "Array",
+    "designer": "Arthur Whitney",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "ABAP",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "SAP SE",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "ABC",
+    "paradigm": "Imperative",
+    "designer": "Leo Geurts, Lambert Meertens, Steven Pemberton",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "ABC ALGOL",
+    "paradigm": "Algorithmic",
+    "designer": "D. W. Barron, A. J. Perlis, R. W. Conway",
+    "releaseYear": "1960"
+  },
+  {
+    "name": "ACC",
+    "paradigm": "Imperative",
+    "designer": "Amsterdam Compiler Kit project",
+    "releaseYear": "1978"
+  },
+  {
+    "name": "Accent (Rational Synergy)",
+    "paradigm": "Procedural",
+    "designer": "Rational Software Corporation",
+    "releaseYear": "1980s"
+  },
+  {
+    "name": "Ace Distributed Application Specification Language (DASL)",
+    "paradigm": "Unknown",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Action!",
+    "paradigm": "Imperative",
+    "designer": "Dr. Howard Cannon",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "ActionScript",
+    "paradigm": "Object-oriented",
+    "designer": "Gary Grossman",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "Actor",
+    "paradigm": "Object-oriented, Actor-based",
+    "designer": "Carl Hewitt",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "Ada – ISO/IEC 8652",
+    "paradigm": "Multi-paradigm",
+    "designer": "U.S. Department of Defense",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Adenine (Haystack)",
+    "paradigm": "Unknown",
+    "designer": "David C. Luckham",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "AdvPL",
+    "paradigm": "Procedural",
+    "designer": "TOTVS",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Agda",
+    "paradigm": "Functional",
+    "designer": "Ulf Norell",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "Agilent VEE (Keysight VEE)",
+    "paradigm": "Visual, Dataflow",
+    "designer": "Hewlett-Packard (now Keysight Technologies)",
+    "releaseYear": "1981"
+  },
+  {
+    "name": "Agora",
+    "paradigm": "Imperative",
+    "designer": "Arthur Whitney",
+    "releaseYear": "1982"
+  },
+  {
+    "name": "AIMMS",
+    "paradigm": "Declarative",
+    "designer": "Paragon Decision Technology",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "Aldor",
+    "paradigm": "Functional, Imperative",
+    "designer": "Stephen M. Watt",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Alef",
+    "paradigm": "Concurrent",
+    "designer": "Phil Winterbottom, Gerard Holzmann",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "ALF",
+    "paradigm": "Object-oriented",
+    "designer": "Allan C. Wilks, Mark S. Manasse, Albert E. Gower",
+    "releaseYear": "1982"
+  },
+  {
+    "name": "ALGOL 58",
+    "paradigm": "Procedural",
+    "designer": "International Federation for Information Processing",
+    "releaseYear": "1958"
+  },
+  {
+    "name": "ALGOL 60",
+    "paradigm": "Imperative, Procedural",
+    "designer": "International Federation for Information Processing",
+    "releaseYear": "1960"
+  },
+  {
+    "name": "ALGOL 68",
+    "paradigm": "Imperative, Procedural",
+    "designer": "International Federation for Information Processing",
+    "releaseYear": "1968"
+  },
+  {
+    "name": "ALGOL W",
+    "paradigm": "Procedural",
+    "designer": "Peter Landin",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "Alice (Alice ML)",
+    "paradigm": "Functional",
+    "designer": "Wolfgang De Meuter, Theo D'Hondt, Chris Roos",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "Alma-0",
+    "paradigm": "Declarative",
+    "designer": "University of Pisa",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "AmbientTalk",
+    "paradigm": "Object-oriented",
+    "designer": "AmbientTalk Research Team",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "Amiga E",
+    "paradigm": "Object-oriented",
+    "designer": "Wouter van Oortmerssen",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "AMPL",
+    "paradigm": "Declarative",
+    "designer": "Robert Fourer, David M. Gay, Brian W. Kernighan",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Analitik",
+    "paradigm": "Imperative",
+    "designer": "Ferranti-Packard, University of Toronto",
+    "releaseYear": "1968"
+  },
+  {
+    "name": "AngelScript",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Andreas Jönsson",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Apache Pig Latin",
+    "paradigm": "Dataflow",
+    "designer": "Apache Software Foundation",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "Apex (Salesforce.com, Inc)",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Salesforce.com, Inc",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "APL",
+    "paradigm": "Array",
+    "designer": "Kenneth E. Iverson",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "App Inventor for Android's visual block language (MIT App Inventor)",
+    "paradigm": "Visual",
+    "designer": "MIT",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "AppleScript",
+    "paradigm": "Scripting",
+    "designer": "Apple Inc.",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "APT",
+    "paradigm": "Procedural",
+    "designer": "Douglas T. Ross",
+    "releaseYear": "1960"
+  },
+  {
+    "name": "Arc",
+    "paradigm": "Functional",
+    "designer": "Paul Graham",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "ARexx",
+    "paradigm": "Procedural",
+    "designer": "William S. Hawes",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "Argus",
+    "paradigm": "Object-oriented",
+    "designer": "Chris Burrows, Michael Mahoney, Ron Morrison",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "Assembly language (ASM)",
+    "paradigm": "Low-level",
+    "designer": "Various",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "AutoHotkey",
+    "paradigm": "Scripting",
+    "designer": "Chris Mallett",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "AutoIt",
+    "paradigm": "Scripting",
+    "designer": "Jonathan Bennett",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "AutoLISP / Visual LISP",
+    "paradigm": "Procedural",
+    "designer": "Autodesk",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Averest",
+    "paradigm": "Imperative",
+    "designer": "Leonid Mokrushin, Anatoliy Kapyrin, Sergey Berezin",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "AWK",
+    "paradigm": "Procedural",
+    "designer": "Alfred Aho, Peter Weinberger, Brian Kernighan",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "Axum",
+    "paradigm": "Concurrent",
+    "designer": "Microsoft",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "B",
+    "paradigm": "Procedural",
+    "designer": "Ken Thompson",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "B",
+    "paradigm": "Procedural",
+    "designer": "Thomas Ball, James R. Larus",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "Babbage",
+    "paradigm": "Imperative",
+    "designer": "Grace Hopper",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Ballerina",
+    "paradigm": "Concurrent, Functional, Object-oriented",
+    "designer": "WSO2",
+    "releaseYear": "2017"
+  },
+  {
+    "name": "Bash",
+    "paradigm": "Scripting",
+    "designer": "Brian Fox, Chet Ramey",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "BASIC",
+    "paradigm": "Procedural",
+    "designer": "John G. Kemeny, Thomas E. Kurtz",
+    "releaseYear": "1964"
+  },
+  {
+    "name": "Batch file (Windows/MS-DOS)",
+    "paradigm": "Scripting",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "bc (basic calculator)",
+    "paradigm": "Procedural",
+    "designer": "Bell Labs",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "BCPL",
+    "paradigm": "Procedural",
+    "designer": "Martin Richards",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "BeanShell",
+    "paradigm": "Scripting",
+    "designer": "Patrick Niemeyer",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "BETA",
+    "paradigm": "Object-oriented",
+    "designer": "Bent Bruun Kristensen, Bent Bruun Kristensen, Bent Bruun Kristensen",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "BLISS",
+    "paradigm": "Procedural",
+    "designer": "Wulf, Russell, Habermann, Hartley, Couleur, Corwin, Bryan, Lipman",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Blockly",
+    "paradigm": "Visual",
+    "designer": "Google",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "BlooP",
+    "paradigm": "Algorithmic",
+    "designer": "Douglas W. Jones",
+    "releaseYear": "1981"
+  },
+  {
+    "name": "Boo",
+    "paradigm": "Object-oriented",
+    "designer": "Rodrigo B. de Oliveira",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Boomerang",
+    "paradigm": "Procedural",
+    "designer": "David S. Warren, Robert H. Halstead",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Bosque",
+    "paradigm": "Functional",
+    "designer": "Microsoft Research",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "C",
+    "paradigm": "Procedural, Imperative",
+    "designer": "Dennis Ritchie",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "C-- (C minus minus)",
+    "paradigm": "Imperative",
+    "designer": "Geoff Collyer",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "C++ (C plus plus)",
+    "paradigm": "Multi-paradigm: Procedural, Object-oriented, Generic",
+    "designer": "Bjarne Stroustrup",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "C*",
+    "paradigm": "Object-oriented",
+    "designer": "Luca Cardelli, Sophia Drossopoulou, Peter Müller",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "C# (C sharp)",
+    "paradigm": "Multi-paradigm: Object-oriented, Component-oriented, Functional",
+    "designer": "Microsoft",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "C/AL",
+    "paradigm": "Declarative",
+    "designer": "Navision (Microsoft)",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Caché ObjectScript",
+    "paradigm": "Multi-paradigm: Object-oriented, Procedural",
+    "designer": "InterSystems",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "C Shell (csh)",
+    "paradigm": "Imperative",
+    "designer": "Bill Joy",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Caml",
+    "paradigm": "Functional",
+    "designer": "INRIA",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Carbon",
+    "paradigm": "Procedural",
+    "designer": "Apple Inc.",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Catrobat",
+    "paradigm": "Visual programming language",
+    "designer": "Catrobat team",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Cayenne (Lennart Augustsson)",
+    "paradigm": "Functional",
+    "designer": "Lennart Augustsson",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "CDuce",
+    "paradigm": "Functional, XML-oriented",
+    "designer": "Giuseppe Castagna, Alain Frisch",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Cecil",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "CSL, C# Compiler Team",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "CESIL (Computer Education in Schools Instruction Language)",
+    "paradigm": "Imperative",
+    "designer": "Michael Schneider, Stephen Walmsley",
+    "releaseYear": "1967"
+  },
+  {
+    "name": "Céu",
+    "paradigm": "Concurrent, Reactive",
+    "designer": "FRP Group, PUC-Rio",
+    "releaseYear": "2013"
+  },
+  {
+    "name": "Ceylon",
+    "paradigm": "Functional, Object-oriented",
+    "designer": "Red Hat",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "CFEngine",
+    "paradigm": "Domain-specific language",
+    "designer": "Mark Burgess",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Cg (High-Level Shader/Shading Language [HLSL])",
+    "paradigm": "Imperative",
+    "designer": "NVIDIA",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Ch",
+    "paradigm": "Procedural",
+    "designer": "SoftIntegration Inc.",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Chapel (Cascade High Productivity Language)",
+    "paradigm": "Parallel, High-performance",
+    "designer": "Cray Inc.",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Charm",
+    "paradigm": "Concurrent",
+    "designer": "University of Illinois at Urbana-Champaign",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "CHILL",
+    "paradigm": "Procedural",
+    "designer": "CCITT",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "CHIP-8",
+    "paradigm": "Imperative",
+    "designer": "Joseph Weisbecker",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "ChucK",
+    "paradigm": "Concurrent",
+    "designer": "Ge Wang, Perry R. Cook, Gary Scavone",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Cilk (also Cilk++ and Cilk plus)",
+    "paradigm": "Multithreaded",
+    "designer": "MIT, Intel",
+    "releaseYear": "1994"
+  },
+  {
+    "name": "Claire",
+    "paradigm": "Functional",
+    "designer": "École Polytechnique Fédérale de Lausanne",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Clarion",
+    "paradigm": "Procedural",
+    "designer": "SoftVelocity",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Clean",
+    "paradigm": "Functional",
+    "designer": "University of Nijmegen",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Clipper",
+    "paradigm": "Procedural",
+    "designer": "Nantucket Corporation",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "CLIPS",
+    "paradigm": "Rule-based",
+    "designer": "NASA Johnson Space Center",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "CLIST",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Clojure",
+    "paradigm": "Functional, Concurrent, Lisp",
+    "designer": "Rich Hickey",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "CLU",
+    "paradigm": "Imperative",
+    "designer": "Barbara Liskov, et al.",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "CMS-2",
+    "paradigm": "Procedural",
+    "designer": "Boeing",
+    "releaseYear": "1963"
+  },
+  {
+    "name": "COBOL – ISO/IEC 1989",
+    "paradigm": "Imperative, Procedural",
+    "designer": "CODASYL, ANSI",
+    "releaseYear": "1959"
+  },
+  {
+    "name": "CobolScript – COBOL Scripting language",
+    "paradigm": "Scripting",
+    "designer": "COBOLScript team",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Cobra",
+    "paradigm": "Object-oriented, Concurrent",
+    "designer": "Charles Esterbrook",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "CoffeeScript",
+    "paradigm": "Functional, Object-oriented",
+    "designer": "Jeremy Ashkenas",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "ColdFusion",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Adobe Systems",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "COMAL",
+    "paradigm": "Imperative",
+    "designer": "COMAL Education Committee",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "COMIT",
+    "paradigm": "Assembly",
+    "designer": "J. McCarthy, et al.",
+    "releaseYear": "1957"
+  },
+  {
+    "name": "Common Intermediate Language (CIL)",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Common Lisp (also known as CL)",
+    "paradigm": "Multi-paradigm: Procedural, Object-oriented, Functional",
+    "designer": "ANSI X3J13 committee",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "COMPASS",
+    "paradigm": "Imperative",
+    "designer": "University of Cambridge",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Component Pascal",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Oberon microsystems",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "COMTRAN",
+    "paradigm": "Imperative",
+    "designer": "IBM",
+    "releaseYear": "1957"
+  },
+  {
+    "name": "Concurrent Pascal",
+    "paradigm": "Concurrent",
+    "designer": "Per Brinch Hansen",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "Constraint Handling Rules (CHR)",
+    "paradigm": "Constraint logic programming",
+    "designer": "Thom Frühwirth",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Control Language",
+    "paradigm": "Domain-specific language",
+    "designer": "IBM",
+    "releaseYear": "1964"
+  },
+  {
+    "name": "Coq",
+    "paradigm": "Functional, Logic",
+    "designer": "Gérard Huet, et al.",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "CORAL, Coral 66",
+    "paradigm": "Imperative",
+    "designer": "Ferranti-Packard, GEC, ICT, English Electric",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "CorVision",
+    "paradigm": "Imperative",
+    "designer": "Unisys",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "COWSEL",
+    "paradigm": "Imperative",
+    "designer": "David S. Wise",
+    "releaseYear": "1963"
+  },
+  {
+    "name": "CPL",
+    "paradigm": "Imperative",
+    "designer": "Christopher Strachey",
+    "releaseYear": "1963"
+  },
+  {
+    "name": "Cryptol",
+    "paradigm": "Functional",
+    "designer": "Galois, Inc.",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "Crystal",
+    "paradigm": "Object-oriented",
+    "designer": "Ary Borenszweig, et al.",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "Csound",
+    "paradigm": "Imperative",
+    "designer": "Barry Vercoe",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Cuneiform",
+    "paradigm": "Functional",
+    "designer": "Robert Atkey",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Curl",
+    "paradigm": "Object-oriented",
+    "designer": "MIT, Curl, Inc.",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "Curry",
+    "paradigm": "Functional",
+    "designer": "Michael Hanus",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Cybil",
+    "paradigm": "Object-oriented",
+    "designer": "Telecom ParisTech",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Cyclone",
+    "paradigm": "Imperative",
+    "designer": "AT&T Labs, Greg Morrisett, Dan Grossman, et al.",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "Cypher Query Language",
+    "paradigm": "Query",
+    "designer": "Neo4j",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Cython",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "Robert Bradshaw, et al.",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "CEEMAC",
+    "paradigm": "Imperative",
+    "designer": "Michel van Caneghem",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "D",
+    "paradigm": "Multi-paradigm: Imperative, Object-oriented, Functional",
+    "designer": "Walter Bright",
+    "releaseYear": "2001"
+  },
+  {
+    "name": "D (also known as dlang)",
+    "paradigm": "Multi-paradigm: Imperative, Object-oriented, Functional, Metaprogramming",
+    "designer": "Walter Bright, Andrei Alexandrescu",
+    "releaseYear": "2001"
+  },
+  {
+    "name": "Dart",
+    "paradigm": "Multi-paradigm: Object-oriented, Reflective, Imperative, Functional",
+    "designer": "Google",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Darwin",
+    "paradigm": "Procedural",
+    "designer": "Steve Wozniak",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "DataFlex",
+    "paradigm": "Object-oriented, Procedural",
+    "designer": "Data Access Worldwide",
+    "releaseYear": "1982"
+  },
+  {
+    "name": "Datalog",
+    "paradigm": "Declarative",
+    "designer": "Alain Colmerauer, Philippe Roussel",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "DATATRIEVE",
+    "paradigm": "Procedural",
+    "designer": "Digital Equipment Corporation (DEC)",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "dBase",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Ashton-Tate, later dBASE Inc.",
+    "releaseYear": "1978"
+  },
+  {
+    "name": "dc",
+    "paradigm": "Procedural",
+    "designer": "UNIX developers",
+    "releaseYear": "ca. 1969"
+  },
+  {
+    "name": "DCL (DIGITAL Command Language)",
+    "paradigm": "Command language",
+    "designer": "DEC (Digital Equipment Corporation)",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "Delphi",
+    "paradigm": "Multi-paradigm: Object-oriented, Procedural",
+    "designer": "Borland (now Embarcadero Technologies)",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "DIBOL",
+    "paradigm": "Procedural",
+    "designer": "DEC (Digital Equipment Corporation)",
+    "releaseYear": "1969"
+  },
+  {
+    "name": "DinkC",
+    "paradigm": "Unknown",
+    "designer": "Seth Robinson",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "Dog",
+    "paradigm": "Object-oriented",
+    "designer": "John Shutt",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "Draco",
+    "paradigm": "Declarative",
+    "designer": "John C. Reynolds",
+    "releaseYear": "1975"
+  },
+  {
+    "name": "DRAKON",
+    "paradigm": "Visual",
+    "designer": "Mikhail M. Bulyonkov",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "Dylan",
+    "paradigm": "Multi-paradigm: Object-oriented, Functional",
+    "designer": "Apple Inc., Carnegie Mellon University",
+    "releaseYear": "1992"
+  },
+  {
+    "name": "DYNAMO",
+    "paradigm": "Simulation",
+    "designer": "MIT (Massachusetts Institute of Technology)",
+    "releaseYear": "1957"
+  },
+  {
+    "name": "DAX (Data Analysis Expressions)",
+    "paradigm": "Functional",
+    "designer": "Microsoft",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "E",
+    "paradigm": "Object-oriented",
+    "designer": "Mark S. Miller, Dan Bornstein, Chip Morningstar, Bill Frantz",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "E",
+    "paradigm": "Procedural",
+    "designer": "Władysław M.M. Turski",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "Ease",
+    "paradigm": "Educational",
+    "designer": "Burton Wendroff",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "Easy PL/I",
+    "paradigm": "Procedural, Imperative",
+    "designer": "IBM",
+    "releaseYear": "1992"
+  },
+  {
+    "name": "EASYTRIEVE PLUS",
+    "paradigm": "Procedural",
+    "designer": "Computer Associates",
+    "releaseYear": "1969"
+  },
+  {
+    "name": "eC",
+    "paradigm": "Procedural",
+    "designer": "Eiffel Software",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "ECMAScript",
+    "paradigm": "Multi-paradigm: Scripting, Imperative, Object-oriented, Functional",
+    "designer": "Brendan Eich",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Edinburgh IMP",
+    "paradigm": "Imperative",
+    "designer": "University of Edinburgh",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "EGL",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "IBM",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Eiffel",
+    "paradigm": "Object-oriented",
+    "designer": "Bertrand Meyer",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "ELAN",
+    "paradigm": "Declarative",
+    "designer": "University of Amsterdam",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Elixir",
+    "paradigm": "Functional, Concurrent, General-purpose",
+    "designer": "José Valim",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Elm",
+    "paradigm": "Functional, Reactive",
+    "designer": "Evan Czaplicki",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "Emacs Lisp",
+    "paradigm": "Dynamic, Imperative",
+    "designer": "Richard Stallman, Guy L. Steele Jr.",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Emerald",
+    "paradigm": "Object-oriented, Distributed",
+    "designer": "Carl Hewitt, Greg Kiczales, Peter de Jong",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Epigram",
+    "paradigm": "Functional",
+    "designer": "Conor McBride, James McKinna",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "EPL (Easy Programming Language)",
+    "paradigm": "Educational",
+    "designer": "David Caminer",
+    "releaseYear": "1960"
+  },
+  {
+    "name": "Erlang",
+    "paradigm": "Concurrent, Functional, Distributed",
+    "designer": "Joe Armstrong, Robert Virding, Mike Williams",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "es",
+    "paradigm": "Object-oriented, Imperative",
+    "designer": "Brendan Eich",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Escher",
+    "paradigm": "Concurrent",
+    "designer": "Bill Roscoe, Rob Milner",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "ESPOL",
+    "paradigm": "Procedural",
+    "designer": "National University of San Marcos",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "Esterel",
+    "paradigm": "Synchronous, Concurrent",
+    "designer": "Gerard Berry, Daniel Gueheneuc, Robert de Simone",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "Etoys",
+    "paradigm": "Object-oriented",
+    "designer": "Alan Kay, Dan Ingalls",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Euclid",
+    "paradigm": "Imperative, Procedural",
+    "designer": "A.J. Perlis, N. Wirth, J. Goodenough",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Euler",
+    "paradigm": "Imperative",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "Euphoria",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "Robert Craig",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "EusLisp Robot Programming Language",
+    "paradigm": "Object-oriented",
+    "designer": "EusLisp project",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "CMS EXEC (EXEC)",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1964"
+  },
+  {
+    "name": "EXEC 2",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "Executable UML",
+    "paradigm": "Model-driven",
+    "designer": "Object Management Group (OMG)",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Ezhil",
+    "paradigm": "Imperative, Structured",
+    "designer": "Bharathi Subramanian",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "F",
+    "paradigm": "Imperative, Procedural",
+    "designer": "John Backus",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "F# (F sharp)",
+    "paradigm": "Functional, Object-oriented",
+    "designer": "Microsoft Research",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "F*",
+    "paradigm": "Functional, Imperative",
+    "designer": "Microsoft Research",
+    "releaseYear": "2015"
+  },
+  {
+    "name": "Factor",
+    "paradigm": "Concatenative",
+    "designer": "Slava Pestov",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Fantom",
+    "paradigm": "Object-oriented",
+    "designer": "Brian Frank, Andy Frank",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "FAUST",
+    "paradigm": "Functional",
+    "designer": "Yann Orlarey, Dominique Fober",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "FFP",
+    "paradigm": "Functional, Logic",
+    "designer": "Robert Kowalski",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "fish",
+    "paradigm": "Unix Shell",
+    "designer": "David Hart",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "Fjölnir",
+    "paradigm": "Functional, Reactive",
+    "designer": "Henrik Nilsson",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "FL",
+    "paradigm": "Functional, Logic",
+    "designer": "Backus, Peter J. Landin",
+    "releaseYear": "1979"
+  },
+  {
+    "name": "Flavors",
+    "paradigm": "Object-oriented",
+    "designer": "Howard Cannon, Mark Stefik, Daniel G. Bobrow",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Flex",
+    "paradigm": "Procedural",
+    "designer": "Adobe Systems",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Flix",
+    "paradigm": "Functional",
+    "designer": "Martin Odersky",
+    "releaseYear": "2015"
+  },
+  {
+    "name": "FlooP",
+    "paradigm": "Imperative",
+    "designer": "Hart, Levin, Lewis, Peter Naur, John W. Backus",
+    "releaseYear": "1958"
+  },
+  {
+    "name": "FLOW-MATIC (B0)",
+    "paradigm": "Data-flow",
+    "designer": "Grace Hopper",
+    "releaseYear": "1955"
+  },
+  {
+    "name": "FOCAL (Formulating On-Line Calculations in Algebraic Language/FOrmula CALculator)",
+    "paradigm": "Imperative",
+    "designer": "David M. Phillips",
+    "releaseYear": "1968"
+  },
+  {
+    "name": "FOCUS",
+    "paradigm": "Imperative",
+    "designer": "Information Builders",
+    "releaseYear": "1975"
+  },
+  {
+    "name": "FOIL",
+    "paradigm": "Logic",
+    "designer": "Ross Quinlan",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "FORMAC (FORMula MAnipulation Compiler)",
+    "paradigm": "Formula",
+    "designer": "IBM",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "@Formula",
+    "paradigm": "Unknown",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Forth",
+    "paradigm": "Stack-based",
+    "designer": "Charles H. Moore",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Fortran – ISO/IEC 1539",
+    "paradigm": "Imperative, Procedural",
+    "designer": "IBM",
+    "releaseYear": "1957"
+  },
+  {
+    "name": "Fortress",
+    "paradigm": "Concurrent, Object-oriented",
+    "designer": "Sun Microsystems",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "FP",
+    "paradigm": "Functional",
+    "designer": "John Backus",
+    "releaseYear": "1965"
+  },
+  {
+    "name": "FoxBase/FoxPro",
+    "paradigm": "Imperative, Procedural",
+    "designer": "Fox Software",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "Franz Lisp",
+    "paradigm": "Multi-paradigm",
+    "designer": "Franz Inc.",
+    "releaseYear": "1958"
+  },
+  {
+    "name": "Futhark",
+    "paradigm": "Functional, Data-parallel",
+    "designer": "Troels Henriksen",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "F-Script",
+    "paradigm": "Object-oriented, Scripting",
+    "designer": "Philippe Mougin",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "Game Maker Language",
+    "paradigm": "Event-driven",
+    "designer": "Mark Overmars",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "GameMonkey Script",
+    "paradigm": "Scripting",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "General Algebraic Modeling System (GAMS)",
+    "paradigm": "Declarative, Modeling",
+    "designer": "GAMS Development Corporation",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "G-code",
+    "paradigm": "Imperative",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "GDScript (Godot)",
+    "paradigm": "Scripting",
+    "designer": "Juan Linietsky",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "Genie",
+    "paradigm": "Functional, Object-oriented",
+    "designer": "Jamison Dance",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Geometric Description Language (GDL)",
+    "paradigm": "Scripting",
+    "designer": "Nemetschek",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "GEORGE",
+    "paradigm": "Unknown",
+    "designer": "Charles Leonard Hamblin",
+    "releaseYear": "1957"
+  },
+  {
+    "name": "OpenGL Shading Language (GLSL)",
+    "paradigm": "Shader",
+    "designer": "OpenGL Architecture Review Board",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "GNU E",
+    "paradigm": "Unknown",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "GNU Ubiquitous Intelligent Language for Extensions (GNU Guile)",
+    "paradigm": "Functional, Procedural",
+    "designer": "GNU Project",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "Go",
+    "paradigm": "Concurrent, Procedural",
+    "designer": "Robert Griesemer, Rob Pike, Ken Thompson",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Go!",
+    "paradigm": "Imperative",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Game Oriented Assembly Lisp (GOAL)",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Gödel",
+    "paradigm": "Functional",
+    "designer": "Achim Jung",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Golo",
+    "paradigm": "Object-oriented",
+    "designer": "Gaël Blondelle",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "Good Old Mad (GOM)",
+    "paradigm": "Imperative",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Google Apps Script",
+    "paradigm": "Scripting",
+    "designer": "Google",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "Gosu",
+    "paradigm": "Object-oriented, Imperative",
+    "designer": "Guidewire Software",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "GOTRAN (IBM 1620)",
+    "paradigm": "Imperative",
+    "designer": "IBM",
+    "releaseYear": "1957"
+  },
+  {
+    "name": "General Purpose Simulation System (GPSS)",
+    "paradigm": "Procedural",
+    "designer": "Geoffrey Gordon",
+    "releaseYear": "1961"
+  },
+  {
+    "name": "GraphTalk (Computer Sciences Corporation)",
+    "paradigm": "Object-oriented",
+    "designer": "Computer Sciences Corporation",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "GRASS",
+    "paradigm": "Procedural",
+    "designer": "US Army Corps of Engineers",
+    "releaseYear": "1982"
+  },
+  {
+    "name": "Grasshopper",
+    "paradigm": "Visual",
+    "designer": "David Rutten",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "Groovy (by Apache)",
+    "paradigm": "Object-oriented, Scripting",
+    "designer": "James Strachan",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Hack",
+    "paradigm": "Imperative",
+    "designer": "Facebook",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "HAGGIS",
+    "paradigm": "Unknown",
+    "designer": "Steve Heller",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "HAL/S",
+    "paradigm": "Procedural",
+    "designer": "NASA",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Halide (programming language)",
+    "paradigm": "Functional, Imperative",
+    "designer": "Jonathan Ragan-Kelley, Andrew Adams, Dillon Sharlet, Connelly Barnes, Sylvain Paris, Frédo Durand, Saman Amarasinghe",
+    "releaseYear": "2013"
+  },
+  {
+    "name": "Hamilton C shell",
+    "paradigm": "Scripting",
+    "designer": "Hamilton Laboratories",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "Harbour",
+    "paradigm": "Procedural",
+    "designer": "Antonio Linares",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "Hartmann pipelines",
+    "paradigm": "Pipeline",
+    "designer": "Randy Pausch",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Haskell",
+    "paradigm": "Functional",
+    "designer": "Committee",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "Haxe",
+    "paradigm": "Multi-paradigm",
+    "designer": "Nicolas Cannasse",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "Hermes",
+    "paradigm": "Imperative",
+    "designer": "Facebook",
+    "releaseYear": "2019"
+  },
+  {
+    "name": "High Level Assembly (HLA)",
+    "paradigm": "Assembly",
+    "designer": "Randall Hyde",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "High Level Shader Language (HLSL)",
+    "paradigm": "Shader",
+    "designer": "Microsoft",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "Hollywood",
+    "paradigm": "Imperative",
+    "designer": "Airsoft Softwair",
+    "releaseYear": "2001"
+  },
+  {
+    "name": "HolyC (TempleOS)",
+    "paradigm": "Imperative",
+    "designer": "Terry A. Davis",
+    "releaseYear": "2013"
+  },
+  {
+    "name": "Hop",
+    "paradigm": "Event-driven",
+    "designer": "Manuel Serrano",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Hopscotch",
+    "paradigm": "Visual, Educational",
+    "designer": "Hopscotch Technologies",
+    "releaseYear": "2013"
+  },
+  {
+    "name": "Hope",
+    "paradigm": "Unknown",
+    "designer": "James W. Backus",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Hume",
+    "paradigm": "Functional",
+    "designer": "Robert Dewar",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "HyperTalk",
+    "paradigm": "Hypermedia, Scripting",
+    "designer": "Apple Inc.",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Hy",
+    "paradigm": "Functional, Imperative",
+    "designer": "Paul Tagliamonte",
+    "releaseYear": "2015"
+  },
+  {
+    "name": "I",
+    "paradigm": "Imperative",
+    "designer": "Peter J. Landin",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "Io",
+    "paradigm": "Prototype-based, Object-oriented",
+    "designer": "Steve Dekorte",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "Icon",
+    "paradigm": "Procedural, Goal-directed",
+    "designer": "Ralph Griswold",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "IBM Basic assembly language",
+    "paradigm": "Low-level",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "IBM HAScript",
+    "paradigm": "Assembly",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "IBM Informix-4GL",
+    "paradigm": "Declarative",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "IBM RPG",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "IDL",
+    "paradigm": "Object-oriented",
+    "designer": "David Rosenblum",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Idris",
+    "paradigm": "Functional, Dependent types",
+    "designer": "Edwin Brady",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Inform",
+    "paradigm": "Interactive fiction",
+    "designer": "Graham Nelson",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "ISLISP",
+    "paradigm": "Reflective, Extensible",
+    "designer": "ISO/IEC",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "J",
+    "paradigm": "Array",
+    "designer": "Kenneth E. Iverson, Roger Hui",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "J# (J sharp)",
+    "paradigm": "Object-oriented",
+    "designer": "Microsoft",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "J++ (J plus plus)",
+    "paradigm": "Object-oriented",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "JADE",
+    "paradigm": "Agent-oriented",
+    "designer": "JADE Board",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Jai",
+    "paradigm": "Systems",
+    "designer": "Jonathan Blow",
+    "releaseYear": "2022"
+  },
+  {
+    "name": "JAL",
+    "paradigm": "Procedural",
+    "designer": "Wouter van Oortmerssen",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "Janus (concurrent constraint programming language)",
+    "paradigm": "Concurrent, Constraint",
+    "designer": "Peter Van Roy",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "Janus (time-reversible computing programming language)",
+    "paradigm": "Time-reversible",
+    "designer": "Gérard Berry",
+    "releaseYear": "2004"
+  },
+  {
+    "name": "JASS",
+    "paradigm": "Scripting",
+    "designer": "Blizzard Entertainment",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Java",
+    "paradigm": "Object-oriented, Concurrent, Class-based",
+    "designer": "James Gosling, Mike Sheridan, Patrick Naughton",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "JavaFX Script",
+    "paradigm": "Declarative, Scripting",
+    "designer": "Sun Microsystems",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "JavaScript",
+    "paradigm": "Multi-paradigm",
+    "designer": "Brendan Eich",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Jess",
+    "paradigm": "Rule-based",
+    "designer": "Ernest Friedman-Hill",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "JCL",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "JEAN",
+    "paradigm": "Unknown",
+    "designer": "Jean Ichbiah",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Join Java",
+    "paradigm": "Concurrent",
+    "designer": "Gul Agha",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "JOSS",
+    "paradigm": "Procedural",
+    "designer": "Cliff Shaw, Randy Jones, Harry Huskey",
+    "releaseYear": "1963"
+  },
+  {
+    "name": "Joule",
+    "paradigm": "Dataflow",
+    "designer": "Gerald Jay Sussman, Guy L. Steele Jr.",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "JOVIAL",
+    "paradigm": "Imperative",
+    "designer": "Jules Schwartz",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Joy",
+    "paradigm": "Concatenative",
+    "designer": "Manfred von Thun",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "jq",
+    "paradigm": "Data-oriented",
+    "designer": "Stephen Dolan",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "JScript",
+    "paradigm": "Scripting",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "JScript .NET",
+    "paradigm": "Object-oriented",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Julia",
+    "paradigm": "Multi-paradigm",
+    "designer": "Jeff Bezanson, Stefan Karpinski, Viral B. Shah, Alan Edelman",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "Jython",
+    "paradigm": "Multi-paradigm",
+    "designer": "Jim Hugunin",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "K",
+    "paradigm": "Array",
+    "designer": "Arthur Whitney",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Kaleidoscope",
+    "paradigm": "Imperative",
+    "designer": "Chris Lattner",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Karel",
+    "paradigm": "Imperative",
+    "designer": "Richard E. Pattis",
+    "releaseYear": "1981"
+  },
+  {
+    "name": "KEE",
+    "paradigm": "Rule-based",
+    "designer": "Knowledge Systems Laboratory",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Kixtart",
+    "paradigm": "Scripting",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Klerer-May System",
+    "paradigm": "Business-oriented",
+    "designer": "Klerer-May System Corporation",
+    "releaseYear": "1968"
+  },
+  {
+    "name": "KIF (Knowledge Interchange Format)",
+    "paradigm": "Logic-based",
+    "designer": "Douglas Lenat",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "Kojo",
+    "paradigm": "Educational",
+    "designer": "Lalit Pant",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Kotlin",
+    "paradigm": "Concurrent, Object-oriented",
+    "designer": "JetBrains",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "KRC",
+    "paradigm": "Imperative",
+    "designer": "RAND Corporation",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "KRL",
+    "paradigm": "Robot programming",
+    "designer": "Willow Garage",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "KRL (KUKA Robot Language)",
+    "paradigm": "Robot programming",
+    "designer": "KUKA",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "KRYPTON",
+    "paradigm": "Unknown",
+    "designer": "Robert Kowalski",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "KornShell (ksh)",
+    "paradigm": "Scripting",
+    "designer": "David Korn",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "Kodu",
+    "paradigm": "Visual programming",
+    "designer": "Microsoft",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Kv (Kivy)",
+    "paradigm": "Object-oriented",
+    "designer": "Kivy developers",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "LabVIEW",
+    "paradigm": "Dataflow",
+    "designer": "National Instruments",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "Ladder",
+    "paradigm": "Visual programming",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "LANSA",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "LANSA",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Lasso",
+    "paradigm": "Object-oriented",
+    "designer": "LassoSoft",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Lava",
+    "paradigm": "Unknown",
+    "designer": "Pfizer",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "LC-3",
+    "paradigm": "Imperative",
+    "designer": "Yale Patt",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Lean",
+    "paradigm": "Functional",
+    "designer": "Microsoft Research",
+    "releaseYear": "2015"
+  },
+  {
+    "name": "Legoscript",
+    "paradigm": "Event-driven",
+    "designer": "Anthony Cappellini",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "LIL",
+    "paradigm": "Imperative",
+    "designer": "Stanford University",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "LilyPond",
+    "paradigm": "Document",
+    "designer": "LilyPond community",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Limbo",
+    "paradigm": "Concurrent",
+    "designer": "Rob Pike, Sean Quinlan, others",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "LINC",
+    "paradigm": "Procedural",
+    "designer": "MIT Lincoln Laboratory",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "Lingo",
+    "paradigm": "Object-oriented",
+    "designer": "Macromedia",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "LINQ",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft Corporation",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "LIS",
+    "paradigm": "Functional",
+    "designer": "MIT AI Lab",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "LISA",
+    "paradigm": "Object-oriented",
+    "designer": "Apple Inc.",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Language H",
+    "paradigm": "Unknown",
+    "designer": "Texas Instruments",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Lisp – ISO/IEC 13816",
+    "paradigm": "Multi-paradigm",
+    "designer": "John McCarthy",
+    "releaseYear": "1958"
+  },
+  {
+    "name": "Lite-C",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "Sascha Willems",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "Lithe",
+    "paradigm": "Concurrent",
+    "designer": "Bob Armstrong",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "Little b",
+    "paradigm": "Functional",
+    "designer": "Tim Budd",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "LLL",
+    "paradigm": "Assembly",
+    "designer": "Stanford University",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "Logo",
+    "paradigm": "Educational, Multi-paradigm",
+    "designer": "Seymour Papert, Wally Feurzeig",
+    "releaseYear": "1967"
+  },
+  {
+    "name": "Logtalk",
+    "paradigm": "Object-oriented",
+    "designer": "Paulo Moura",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "LotusScript",
+    "paradigm": "Procedural",
+    "designer": "Lotus Development Corporation",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "LPC",
+    "paradigm": "Procedural",
+    "designer": "Lars Pensjö",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "LSE",
+    "paradigm": "Multi-paradigm",
+    "designer": "Carl Hewitt",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "LSL",
+    "paradigm": "Scripting",
+    "designer": "Linden Lab",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "LiveCode",
+    "paradigm": "Event-driven, Object-oriented",
+    "designer": "RunRev Ltd.",
+    "releaseYear": "2001"
+  },
+  {
+    "name": "LiveScript",
+    "paradigm": "Scripting",
+    "designer": "Netscape Communications Corporation",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Lua",
+    "paradigm": "Imperative, Procedural, Scripting",
+    "designer": "Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Lucid",
+    "paradigm": "Functional",
+    "designer": "Peter J. Landin",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Lustre",
+    "paradigm": "Dataflow",
+    "designer": "Nicolas Halbwachs, Paul Caspi, Daniel Pilaud",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "LYaPAS",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Russian Institute for New Technologies in Education",
+    "releaseYear": "1992"
+  },
+  {
+    "name": "Lynx",
+    "paradigm": "Multi-paradigm",
+    "designer": "Moscow Institute of Physics and Technology",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "M",
+    "paradigm": "Multi-paradigm",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "M Formula language",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "M2001",
+    "paradigm": "Procedural",
+    "designer": "Unknown",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "M4",
+    "paradigm": "Macro",
+    "designer": "Brian Kernighan, Dennis Ritchie",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "M#",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "Machine code",
+    "paradigm": "Low-level",
+    "designer": "Various",
+    "releaseYear": "Dependent on architecture"
+  },
+  {
+    "name": "MAD (Michigan Algorithm Decoder)",
+    "paradigm": "Procedural",
+    "designer": "University of Michigan",
+    "releaseYear": "1959"
+  },
+  {
+    "name": "MAD/I",
+    "paradigm": "Procedural",
+    "designer": "University of Michigan",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "Magik",
+    "paradigm": "Object-oriented",
+    "designer": "Smallworld Systems",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Magma",
+    "paradigm": "Algebraic",
+    "designer": "John Cannon",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Maple",
+    "paradigm": "Multi-paradigm",
+    "designer": "University of Waterloo",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "MAPPER (now part of BIS)",
+    "paradigm": "Procedural",
+    "designer": "MAPPER System",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "MARK-IV (now VISION:BUILDER)",
+    "paradigm": "Procedural",
+    "designer": "Sterling Software",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Mary",
+    "paradigm": "Procedural",
+    "designer": "University of Manchester",
+    "releaseYear": "1971"
+  },
+  {
+    "name": "MATLAB",
+    "paradigm": "Multi-paradigm",
+    "designer": "MathWorks",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "MASM Microsoft Assembly x86",
+    "paradigm": "Low-level",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "MATH-MATIC",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1955"
+  },
+  {
+    "name": "Maude system",
+    "paradigm": "Functional, Object-oriented",
+    "designer": "SRI International",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Maxima (see also Macsyma)",
+    "paradigm": "Symbolic",
+    "designer": "MIT Project MAC",
+    "releaseYear": "1968"
+  },
+  {
+    "name": "Max (Max Msp – Graphical Programming Environment)",
+    "paradigm": "Multi-paradigm",
+    "designer": "Cycling '74",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "MaxScript internal language 3D Studio Max",
+    "paradigm": "Scripting",
+    "designer": "Autodesk",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Maya (MEL)",
+    "paradigm": "Scripting",
+    "designer": "Autodesk",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "MDL",
+    "paradigm": "Procedural",
+    "designer": "Autodesk",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "Mercury",
+    "paradigm": "Functional, Logic",
+    "designer": "University of Melbourne",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Mesa",
+    "paradigm": "Multi-paradigm",
+    "designer": "Xerox PARC",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "MHEG-5 (Interactive TV programming language)",
+    "paradigm": "Declarative",
+    "designer": "ISO",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Microcode",
+    "paradigm": "Low-level",
+    "designer": "Various",
+    "releaseYear": "Dependent on architecture"
+  },
+  {
+    "name": "Microsoft Power Fx",
+    "paradigm": "Formula",
+    "designer": "Microsoft",
+    "releaseYear": "2021"
+  },
+  {
+    "name": "MIIS",
+    "paradigm": "Procedural",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "MIMIC",
+    "paradigm": "Procedural",
+    "designer": "NASA",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Mirah",
+    "paradigm": "Multi-paradigm",
+    "designer": "Nick Howard",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Miranda",
+    "paradigm": "Functional",
+    "designer": "David Turner",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "MIVA Script",
+    "paradigm": "Scripting",
+    "designer": "Miva",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "ML",
+    "paradigm": "Functional, Logic",
+    "designer": "Robin Milner",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "Model 204",
+    "paradigm": "Database",
+    "designer": "Computer Corporation of America",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "Modelica",
+    "paradigm": "Object-oriented",
+    "designer": "Modelica Association",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Malbolge",
+    "paradigm": "Esoteric",
+    "designer": "Ben Olmstead",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "Modula",
+    "paradigm": "Procedural",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1975"
+  },
+  {
+    "name": "Modula-2",
+    "paradigm": "Procedural",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1978"
+  },
+  {
+    "name": "Modula-3",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "DEC, Olivetti, Digital Equipment Corporation",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "Mohol",
+    "paradigm": "Procedural",
+    "designer": "Joel Bartlett",
+    "releaseYear": "1976"
+  },
+  {
+    "name": "Mojo",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Victor Rehorst",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "MOO",
+    "paradigm": "Object-oriented",
+    "designer": "Stephen White",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "Mortran",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1954"
+  },
+  {
+    "name": "Mouse",
+    "paradigm": "Imperative",
+    "designer": "Charles H. Moore",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "MPD",
+    "paradigm": "Procedural",
+    "designer": "Ehud Shapiro",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "MSL",
+    "paradigm": "Dataflow",
+    "designer": "Massachusetts Computer Associates",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "MUMPS",
+    "paradigm": "Procedural",
+    "designer": "Massachusetts General Hospital",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "MuPAD",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "University of Paderborn",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Mutan",
+    "paradigm": "Concurrent",
+    "designer": "University of Utah",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Mystic Programming Language (MPL)",
+    "paradigm": "Procedural",
+    "designer": "Magic Software Enterprises",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "NASM",
+    "paradigm": "Imperative",
+    "designer": "Simon Tatham",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "Napier88",
+    "paradigm": "Educational",
+    "designer": "Edinburgh Napier University",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Neko",
+    "paradigm": "Procedural",
+    "designer": "Nicolas Cannasse",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "Nemerle",
+    "paradigm": "Multi-paradigm",
+    "designer": "University of Wrocław",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "NESL",
+    "paradigm": "Functional",
+    "designer": "Guy Blelloch, Jonathan C. Hardwick, Jay Sipelstein",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Net.Data",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "NetLogo",
+    "paradigm": "Multi-agent simulation",
+    "designer": "Northwestern University",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "NetRexx",
+    "paradigm": "Multi-paradigm",
+    "designer": "IBM",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "NewLISP",
+    "paradigm": "Multi-paradigm",
+    "designer": "Lutz Mueller",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "NEWP",
+    "paradigm": "Procedural",
+    "designer": "Jef Raskin",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Newspeak",
+    "paradigm": "Object-oriented",
+    "designer": "Sun Microsystems",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "NewtonScript",
+    "paradigm": "Object-oriented",
+    "designer": "Apple Inc.",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Nial",
+    "paradigm": "Array",
+    "designer": "Numerical Algorithms Group",
+    "releaseYear": "1980s"
+  },
+  {
+    "name": "Nickle (NITIN)",
+    "paradigm": "Imperative",
+    "designer": "Keith Packard",
+    "releaseYear": "2016"
+  },
+  {
+    "name": "Nim",
+    "paradigm": "Multi-paradigm",
+    "designer": "Andreas Rumpf",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Nix (Systems configuration language)",
+    "paradigm": "Declarative",
+    "designer": "Eelco Dolstra",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "NPL",
+    "paradigm": "Imperative",
+    "designer": "NASA",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Not eXactly C (NXC)",
+    "paradigm": "Imperative",
+    "designer": "John Hansen",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "Not Quite C (NQC)",
+    "paradigm": "Imperative",
+    "designer": "David Baum",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "NSIS",
+    "paradigm": "Scripting",
+    "designer": "Nullsoft",
+    "releaseYear": "2001"
+  },
+  {
+    "name": "Nu",
+    "paradigm": "Functional",
+    "designer": "Tim Burks",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "NWScript",
+    "paradigm": "Scripting",
+    "designer": "Bioware",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "NXT-G",
+    "paradigm": "Visual, Icon-Based",
+    "designer": "LEGO Group",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "o:XML",
+    "paradigm": "Multi-paradigm",
+    "designer": "o:XML",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Oak",
+    "paradigm": "Object-oriented",
+    "designer": "James Gosling, Mike Sheridan, Patrick Naughton",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Oberon",
+    "paradigm": "Procedural, Concurrent, Object-oriented",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "OBJ2",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Object Lisp",
+    "paradigm": "Object-oriented",
+    "designer": "Symbolics, Lisp Machines Inc.",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "ObjectLOGO",
+    "paradigm": "Object-oriented",
+    "designer": "Harold Abelson, Andrea diSessa",
+    "releaseYear": "1967"
+  },
+  {
+    "name": "Object REXX",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "IBM",
+    "releaseYear": "1992"
+  },
+  {
+    "name": "Object Pascal",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Apple Inc.",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Objective-C",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Tom Love, Brad Cox",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "Obliq",
+    "paradigm": "Object-oriented",
+    "designer": "Luca Cardelli, Peter Wegner",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "OCaml",
+    "paradigm": "Functional, Object-oriented",
+    "designer": "Xavier Leroy, Jérôme Vouillon, Damien Doligez",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "occam",
+    "paradigm": "Concurrent",
+    "designer": "INMOS",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "occam-π",
+    "paradigm": "Concurrent",
+    "designer": "INMOS",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Octave",
+    "paradigm": "Procedural, Matrix-oriented",
+    "designer": "John W. Eaton",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "OmniMark",
+    "paradigm": "Procedural",
+    "designer": "OmniMark Technologies",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Opa",
+    "paradigm": "Functional, Concurrent",
+    "designer": "MLstate",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Opal",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Peter Deutsch",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "Open Programming Language (OPL)",
+    "paradigm": "Procedural",
+    "designer": "Psion",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "OpenCL",
+    "paradigm": "Imperative, Concurrent",
+    "designer": "Khronos Group",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "OpenEdge Advanced Business Language (ABL)",
+    "paradigm": "Procedural",
+    "designer": "Progress Software",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "OpenVera",
+    "paradigm": "Hardware Description",
+    "designer": "Synopsys",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "OpenQASM",
+    "paradigm": "Quantum",
+    "designer": "IBM",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "OPS5",
+    "paradigm": "Production",
+    "designer": "Charles Forgy",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "OptimJ",
+    "paradigm": "Object-oriented",
+    "designer": "IBM",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Orc",
+    "paradigm": "Concurrent",
+    "designer": "Cliff Click, Thomas Würthinger",
+    "releaseYear": "2004"
+  },
+  {
+    "name": "ORCA/Modula-2",
+    "paradigm": "Procedural",
+    "designer": "ETH Zurich",
+    "releaseYear": "1978"
+  },
+  {
+    "name": "Oriel",
+    "paradigm": "Procedural",
+    "designer": "Computer Corporation of America",
+    "releaseYear": "1981"
+  },
+  {
+    "name": "Orwell",
+    "paradigm": "Procedural",
+    "designer": "Radley College",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "Oxygene",
+    "paradigm": "Multi-paradigm",
+    "designer": "RemObjects Software",
+    "releaseYear": "2004"
+  },
+  {
+    "name": "Oz",
+    "paradigm": "Multi-paradigm",
+    "designer": "Gert Smolka, Peter Van Roy, Seif Haridi",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "P",
+    "paradigm": "Array, Dataflow",
+    "designer": "Interactive Systems Corporation",
+    "releaseYear": "1976"
+  },
+  {
+    "name": "P4",
+    "paradigm": "Imperative",
+    "designer": "Open Networking Foundation",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "P′′",
+    "paradigm": "Imperative",
+    "designer": "Alexander Stepanov, Meng Lee",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "ParaSail",
+    "paradigm": "Multi-paradigm",
+    "designer": "Tucker Taft",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "PARI/GP",
+    "paradigm": "Procedural",
+    "designer": "Université Bordeaux",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "Pascal – ISO 7185",
+    "paradigm": "Imperative",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Pascal Script",
+    "paradigm": "Imperative",
+    "designer": "RemObjects Software",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "PCASTL",
+    "paradigm": "Object-oriented",
+    "designer": "Peter A. Buhr",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "PCF",
+    "paradigm": "Functional",
+    "designer": "Robin Milner",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "PEARL",
+    "paradigm": "Procedural",
+    "designer": "West German standards body NDR",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "PeopleCode",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "PeopleSoft",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Perl",
+    "paradigm": "Imperative, Functional, Object-oriented",
+    "designer": "Larry Wall",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "PDL",
+    "paradigm": "Imperative",
+    "designer": "K. S. Krishnan, Klaus Schmaranz",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "Pharo",
+    "paradigm": "Object-oriented",
+    "designer": "Pharo Consortium",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "PHP",
+    "paradigm": "Imperative, Object-oriented",
+    "designer": "Rasmus Lerdorf",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Pico",
+    "paradigm": "Procedural",
+    "designer": "Bell Labs",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "Picolisp",
+    "paradigm": "Procedural, Functional",
+    "designer": "Alexander Burger",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "Pict",
+    "paradigm": "Functional",
+    "designer": "Stephen C. Johnson",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "Pike",
+    "paradigm": "Imperative, Concurrent, Object-oriented",
+    "designer": "Fredrik Hübinette, Per Liden",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "PILOT",
+    "paradigm": "Procedural",
+    "designer": "John A. Starkweather",
+    "releaseYear": "1967"
+  },
+  {
+    "name": "Pipelines",
+    "paradigm": "Dataflow",
+    "designer": "CDC",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Pizza",
+    "paradigm": "Object-oriented",
+    "designer": "Martin Odersky, Philip Wadler",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "PL-11",
+    "paradigm": "Imperative",
+    "designer": "DEC",
+    "releaseYear": "1965"
+  },
+  {
+    "name": "PL/0",
+    "paradigm": "Procedural",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "PL/B",
+    "paradigm": "Procedural",
+    "designer": "Gary Kildall",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "PL/C",
+    "paradigm": "Procedural",
+    "designer": "DEC",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "PL/I – ISO 6160",
+    "paradigm": "Imperative",
+    "designer": "IBM",
+    "releaseYear": "1964"
+  },
+  {
+    "name": "PL/M",
+    "paradigm": "Imperative",
+    "designer": "Gary Kildall",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "PL/P",
+    "paradigm": "Procedural",
+    "designer": "DEC",
+    "releaseYear": "1964"
+  },
+  {
+    "name": "PL/S",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "PL/SQL",
+    "paradigm": "Procedural, Declarative",
+    "designer": "Oracle Corporation",
+    "releaseYear": "1979"
+  },
+  {
+    "name": "PL360",
+    "paradigm": "Imperative",
+    "designer": "IBM",
+    "releaseYear": "1960s"
+  },
+  {
+    "name": "PLANC",
+    "paradigm": "Procedural",
+    "designer": "Computer Corporation of America",
+    "releaseYear": "1971"
+  },
+  {
+    "name": "Plankalkül",
+    "paradigm": "Imperative",
+    "designer": "Konrad Zuse",
+    "releaseYear": "1945"
+  },
+  {
+    "name": "Planner",
+    "paradigm": "Procedural",
+    "designer": "Carl Hewitt",
+    "releaseYear": "1969"
+  },
+  {
+    "name": "PLEX",
+    "paradigm": "Procedural",
+    "designer": "Data General",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "PLEXIL",
+    "paradigm": "Imperative, Concurrent",
+    "designer": "NASA Ames Research Center",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "Plus",
+    "paradigm": "Object-oriented",
+    "designer": "University of Cambridge",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "POP-11",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "University of Sussex",
+    "releaseYear": "1976"
+  },
+  {
+    "name": "POP-2",
+    "paradigm": "Procedural",
+    "designer": "University of Edinburgh",
+    "releaseYear": "1964"
+  },
+  {
+    "name": "PostScript",
+    "paradigm": "Imperative",
+    "designer": "Adobe Systems",
+    "releaseYear": "1982"
+  },
+  {
+    "name": "PortablE",
+    "paradigm": "Imperative",
+    "designer": "PortablE team",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "POV-Ray SDL",
+    "paradigm": "Imperative",
+    "designer": "Persistence of Vision Raytracer community",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Powerhouse",
+    "paradigm": "Procedural",
+    "designer": "Cincom Systems",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "PowerBuilder – 4GL GUI application generator from Sybase",
+    "paradigm": "Procedural, Object-oriented",
+    "designer": "Sybase",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "PowerShell",
+    "paradigm": "Task automation",
+    "designer": "Microsoft",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "PPL",
+    "paradigm": "Procedural",
+    "designer": "Hewlett-Packard",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "Processing",
+    "paradigm": "Imperative",
+    "designer": "Ben Fry, Casey Reas",
+    "releaseYear": "2001"
+  },
+  {
+    "name": "Processing.js",
+    "paradigm": "Imperative",
+    "designer": "John Resig",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Prograph",
+    "paradigm": "Dataflow, Visual",
+    "designer": "Prograph International",
+    "releaseYear": "1980s"
+  },
+  {
+    "name": "Project Verona",
+    "paradigm": "Object-oriented",
+    "designer": "Microsoft",
+    "releaseYear": "2020"
+  },
+  {
+    "name": "Prolog",
+    "paradigm": "Logic",
+    "designer": "Alain Colmerauer, Philippe Roussel",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "PROMAL",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "Promela",
+    "paradigm": "Concurrent",
+    "designer": "Gerard J. Holzmann",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "PROSE modeling language",
+    "paradigm": "Constraint-based",
+    "designer": "Research Systems Inc.",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "PROTEL",
+    "paradigm": "Procedural",
+    "designer": "Altium Limited",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "ProvideX",
+    "paradigm": "Procedural",
+    "designer": "PVX Plus Technologies",
+    "releaseYear": "1979"
+  },
+  {
+    "name": "Pro*C",
+    "paradigm": "Procedural",
+    "designer": "Oracle Corporation",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Pure",
+    "paradigm": "Functional",
+    "designer": "Albert Gräf",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Pure Data",
+    "paradigm": "Visual, Dataflow",
+    "designer": "Miller Puckette",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "PureScript",
+    "paradigm": "Functional",
+    "designer": "Phil Freeman",
+    "releaseYear": "2013"
+  },
+  {
+    "name": "PWCT",
+    "paradigm": "Visual",
+    "designer": "Mohammed Irfan Hussain",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "Python",
+    "paradigm": "Multi-paradigm",
+    "designer": "Guido van Rossum",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Q",
+    "paradigm": "Concurrent, Functional",
+    "designer": "Albert Gräf",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Q#",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "2017"
+  },
+  {
+    "name": "Qalb",
+    "paradigm": "Concurrent",
+    "designer": "Roly Perera",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "Quantum Computation Language",
+    "paradigm": "Quantum",
+    "designer": "Microsoft",
+    "releaseYear": "2017"
+  },
+  {
+    "name": "QtScript",
+    "paradigm": "Multi-paradigm",
+    "designer": "Nokia",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "QuakeC",
+    "paradigm": "Scripting",
+    "designer": "id Software",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "QPL",
+    "paradigm": "Procedural",
+    "designer": "Qt Project",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": ".QL",
+    "paradigm": "Query language",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "R",
+    "paradigm": "Multi-paradigm",
+    "designer": "Ross Ihaka, Robert Gentleman",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "R++",
+    "paradigm": "Multi-paradigm",
+    "designer": "R Core Team",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Racket",
+    "paradigm": "Multi-paradigm",
+    "designer": "PLT Inc.",
+    "releaseYear": "1994"
+  },
+  {
+    "name": "Raku",
+    "paradigm": "Multi-paradigm",
+    "designer": "The Perl Foundation",
+    "releaseYear": "2019"
+  },
+  {
+    "name": "RAPID",
+    "paradigm": "Sequential",
+    "designer": "ABB Robotics",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Rapira",
+    "paradigm": "Procedural",
+    "designer": "Rinat Tainov",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "Ratfiv",
+    "paradigm": "Procedural",
+    "designer": "Adrian Cable",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Ratfor",
+    "paradigm": "Imperative",
+    "designer": "Brian W. Kernighan",
+    "releaseYear": "1975"
+  },
+  {
+    "name": "rc",
+    "paradigm": "Scripting",
+    "designer": "Byron Rakitzis",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "Reason",
+    "paradigm": "Functional",
+    "designer": "Facebook, Inc.",
+    "releaseYear": "2017"
+  },
+  {
+    "name": "REBOL",
+    "paradigm": "Multi-paradigm",
+    "designer": "Carl Sassenrath",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Red",
+    "paradigm": "Multi-paradigm",
+    "designer": "Nenad Rakočević",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Redcode",
+    "paradigm": "Assembly",
+    "designer": "A.K. Dewdney",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "REFAL",
+    "paradigm": "Functional",
+    "designer": "Valentin Turchin",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "REXX",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1979"
+  },
+  {
+    "name": "Ring",
+    "paradigm": "Procedural",
+    "designer": "Ring Team",
+    "releaseYear": "2016"
+  },
+  {
+    "name": "ROOP",
+    "paradigm": "Object-oriented",
+    "designer": "Tampere University of Technology",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "RPG",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1959"
+  },
+  {
+    "name": "RPL",
+    "paradigm": "Stack-based",
+    "designer": "Hewlett-Packard",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "RSL",
+    "paradigm": "Imperative",
+    "designer": "Silicon Graphics",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "RTL/2",
+    "paradigm": "Procedural",
+    "designer": "TNO",
+    "releaseYear": "1960s"
+  },
+  {
+    "name": "Ruby",
+    "paradigm": "Multi-paradigm",
+    "designer": "Yukihiro Matsumoto",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Rust",
+    "paradigm": "Multi-paradigm",
+    "designer": "Mozilla",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "S",
+    "paradigm": "Imperative",
+    "designer": "John Chambers",
+    "releaseYear": "1976"
+  },
+  {
+    "name": "S2",
+    "paradigm": "Array",
+    "designer": "John Chambers",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "S3",
+    "paradigm": "Object-oriented",
+    "designer": "John Chambers",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "S-Lang",
+    "paradigm": "Procedural",
+    "designer": "John E. Davis",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "S-PLUS",
+    "paradigm": "Procedural",
+    "designer": "Insightful Corporation",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "SA-C",
+    "paradigm": "Single assignment",
+    "designer": "SAS Institute",
+    "releaseYear": "1980s"
+  },
+  {
+    "name": "SabreTalk",
+    "paradigm": "Procedural",
+    "designer": "Scientific Time Sharing Corporation",
+    "releaseYear": "1960s"
+  },
+  {
+    "name": "SAIL",
+    "paradigm": "Imperative",
+    "designer": "Stanford University",
+    "releaseYear": "1960s"
+  },
+  {
+    "name": "SAKO",
+    "paradigm": "Object-oriented",
+    "designer": "SoftVelocity",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "SAS",
+    "paradigm": "Multi-paradigm",
+    "designer": "SAS Institute",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "SASL",
+    "paradigm": "Functional",
+    "designer": "David Turner",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "Sather",
+    "paradigm": "Object-oriented",
+    "designer": "Steve Omohundro",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "Sawzall",
+    "paradigm": "Procedural",
+    "designer": "Google",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Scala",
+    "paradigm": "Multi-paradigm",
+    "designer": "Martin Odersky",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Scheme",
+    "paradigm": "Functional",
+    "designer": "Gerald Jay Sussman, Guy L. Steele Jr.",
+    "releaseYear": "1975"
+  },
+  {
+    "name": "Scilab",
+    "paradigm": "Numerical computing",
+    "designer": "Scilab Enterprises",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "Scratch",
+    "paradigm": "Visual programming language",
+    "designer": "MIT Media Lab",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "ScratchJr",
+    "paradigm": "Visual programming language",
+    "designer": "MIT Media Lab",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "Script.NET",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "Sed",
+    "paradigm": "Imperative, Scripting",
+    "designer": "Lee E. McMahon",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "Seed7",
+    "paradigm": "Multi-paradigm",
+    "designer": "Thomas Mertes",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "Self",
+    "paradigm": "Prototype-based",
+    "designer": "David Ungar, Randall B. Smith",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "SenseTalk",
+    "paradigm": "Scripting",
+    "designer": "SmartBear Software",
+    "releaseYear": "Unknown"
+  },
+  {
+    "name": "SequenceL",
+    "paradigm": "Functional",
+    "designer": "Texas A&M University",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Serpent",
+    "paradigm": "Imperative",
+    "designer": "Vitalik Buterin",
+    "releaseYear": "2017"
+  },
+  {
+    "name": "SETL",
+    "paradigm": "Set-theoretic",
+    "designer": "Jack Schwartz",
+    "releaseYear": "1969"
+  },
+  {
+    "name": "Short Code",
+    "paradigm": "Imperative",
+    "designer": "John W. Mauchly",
+    "releaseYear": "1949"
+  },
+  {
+    "name": "SIMPOL",
+    "paradigm": "Procedural",
+    "designer": "SIMPOL Limited",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "SIGNAL",
+    "paradigm": "Dataflow",
+    "designer": "University of California, Berkeley",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "SiMPLE",
+    "paradigm": "Imperative",
+    "designer": "Moss Systems",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "SIMSCRIPT",
+    "paradigm": "Procedural",
+    "designer": "Harry Markowitz",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "Simula",
+    "paradigm": "Object-oriented",
+    "designer": "Ole-Johan Dahl, Kristen Nygaard",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "Simulink",
+    "paradigm": "Block diagram",
+    "designer": "MathWorks",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "SISAL",
+    "paradigm": "Dataflow",
+    "designer": "James McGraw, William McCune, Harold Lawson, Bernard Sufrin",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "SKILL",
+    "paradigm": "Procedural",
+    "designer": "Cadence Design Systems",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "SLIP",
+    "paradigm": "Imperative",
+    "designer": "IBM",
+    "releaseYear": "1960s"
+  },
+  {
+    "name": "SMALL",
+    "paradigm": "Imperative",
+    "designer": "Niklaus Wirth",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "Smalltalk",
+    "paradigm": "Object-oriented",
+    "designer": "Alan Kay, Dan Ingalls, Adele Goldberg",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "SML",
+    "paradigm": "Functional",
+    "designer": "Robin Milner",
+    "releaseYear": "1973"
+  },
+  {
+    "name": "Strongtalk",
+    "paradigm": "Object-oriented",
+    "designer": "Sun Microsystems",
+    "releaseYear": "1995"
+  },
+  {
+    "name": "Snap!",
+    "paradigm": "Visual programming language",
+    "designer": "University of California, Berkeley",
+    "releaseYear": "2013"
+  },
+  {
+    "name": "SNOBOL (SPITBOL)",
+    "paradigm": "String processing",
+    "designer": "David J. Farber, Ralph E. Griswold, Ivan P. Polonsky",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "Snowball",
+    "paradigm": "String processing",
+    "designer": "Martin Porter",
+    "releaseYear": "1968"
+  },
+  {
+    "name": "SOL",
+    "paradigm": "Imperative",
+    "designer": "University of California, Berkeley",
+    "releaseYear": "1979"
+  },
+  {
+    "name": "Solidity",
+    "paradigm": "Contract-oriented",
+    "designer": "Gavin Wood, Ethereum Foundation",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "SOPHAEROS",
+    "paradigm": "Procedural",
+    "designer": "Steve Deller",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Source",
+    "paradigm": "Object-oriented",
+    "designer": "University of Illinois at Urbana–Champaign",
+    "releaseYear": "2013"
+  },
+  {
+    "name": "SPARK",
+    "paradigm": "Imperative",
+    "designer": "Praxis High Integrity Systems",
+    "releaseYear": "1980s"
+  },
+  {
+    "name": "Speakeasy",
+    "paradigm": "Imperative",
+    "designer": "Brian Hurt",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Speedcode",
+    "paradigm": "Imperative",
+    "designer": "IBM",
+    "releaseYear": "1953"
+  },
+  {
+    "name": "SPIN",
+    "paradigm": "Concurrent",
+    "designer": "Gerald J. Holzmann, Bjørn K. Lynne",
+    "releaseYear": "1980s"
+  },
+  {
+    "name": "SP/k",
+    "paradigm": "Concurrent",
+    "designer": "Gerald J. Holzmann, Bjørn K. Lynne",
+    "releaseYear": "1980s"
+  },
+  {
+    "name": "SPS",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "SQL",
+    "paradigm": "Declarative",
+    "designer": "Donald D. Chamberlin, Raymond F. Boyce",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "SQR",
+    "paradigm": "Procedural",
+    "designer": "PeopleSoft",
+    "releaseYear": "1975"
+  },
+  {
+    "name": "Squeak",
+    "paradigm": "Object-oriented",
+    "designer": "Alan Kay, Dan Ingalls, Adele Goldberg",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Squirrel",
+    "paradigm": "Imperative",
+    "designer": "Alberto Demichelis",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "SR",
+    "paradigm": "Object-oriented",
+    "designer": "University of Arizona",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "S/SL",
+    "paradigm": "Functional",
+    "designer": "Robert Kessler",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Starlogo",
+    "paradigm": "Agent-based modeling",
+    "designer": "MIT Media Lab",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Strand",
+    "paradigm": "Object-oriented",
+    "designer": "Royal Institute of Technology",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "Stata",
+    "paradigm": "Procedural",
+    "designer": "StataCorp",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "Stateflow",
+    "paradigm": "Visual",
+    "designer": "MathWorks",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Subtext",
+    "paradigm": "Functional",
+    "designer": "Jonathan Edwards",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "SBL",
+    "paradigm": "Imperative",
+    "designer": "Oracle Corporation",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "SuperCollider",
+    "paradigm": "Multi-paradigm",
+    "designer": "James McCartney",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Superplan",
+    "paradigm": "Constraint programming",
+    "designer": "Jean-François Puget",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "SuperTalk",
+    "paradigm": "Object-oriented",
+    "designer": "Claris",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "Swift (Apple programming language)",
+    "paradigm": "Multi-paradigm",
+    "designer": "Apple Inc.",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "Swift (parallel scripting language)",
+    "paradigm": "Parallel",
+    "designer": "University of Chicago",
+    "releaseYear": "2005"
+  },
+  {
+    "name": "SYMPL",
+    "paradigm": "Procedural",
+    "designer": "Doug McIlroy",
+    "releaseYear": "1966"
+  },
+  {
+    "name": "T",
+    "paradigm": "Procedural",
+    "designer": "Ken Thompson",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "TACL",
+    "paradigm": "Procedural",
+    "designer": "Tandem Computers",
+    "releaseYear": "1976"
+  },
+  {
+    "name": "TACPOL",
+    "paradigm": "Procedural",
+    "designer": "United States Air Force",
+    "releaseYear": "1972"
+  },
+  {
+    "name": "TADS (Text Adventure Development System)",
+    "paradigm": "Procedural",
+    "designer": "Michael J. Roberts",
+    "releaseYear": "1985"
+  },
+  {
+    "name": "TAL",
+    "paradigm": "Procedural",
+    "designer": "Benjamin Goldberg",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "Tcl",
+    "paradigm": "Multi-paradigm",
+    "designer": "John Ousterhout",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "Tea",
+    "paradigm": "Imperative",
+    "designer": "John Ousterhout",
+    "releaseYear": "1994"
+  },
+  {
+    "name": "TECO (Text Editor and Corrector)",
+    "paradigm": "Macro",
+    "designer": "Daniel L. Murphy",
+    "releaseYear": "1962"
+  },
+  {
+    "name": "TELCOMP",
+    "paradigm": "Procedural",
+    "designer": "IT&T",
+    "releaseYear": "1965"
+  },
+  {
+    "name": "TeX",
+    "paradigm": "Macro",
+    "designer": "Donald Knuth",
+    "releaseYear": "1978"
+  },
+  {
+    "name": "TEX (Text Executive Programming Language)",
+    "paradigm": "Scripting",
+    "designer": "Gates Intermediate Language",
+    "releaseYear": "1963"
+  },
+  {
+    "name": "TIE",
+    "paradigm": "Imperative",
+    "designer": "IPT",
+    "releaseYear": "1970s"
+  },
+  {
+    "name": "TMG (TransMoGrifier), compiler-compiler",
+    "paradigm": "Procedural",
+    "designer": "Robert McClure",
+    "releaseYear": "1960"
+  },
+  {
+    "name": "Tom",
+    "paradigm": "Imperative",
+    "designer": "Complang Group",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "Toi",
+    "paradigm": "Educational",
+    "designer": "Ivan Puljic",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Topspeed (Clarion)",
+    "paradigm": "Procedural",
+    "designer": "TopSpeed Corporation",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "TPU (Text Processing Utility)",
+    "paradigm": "Procedural",
+    "designer": "DEC",
+    "releaseYear": "1976"
+  },
+  {
+    "name": "Trac",
+    "paradigm": "Procedural",
+    "designer": "Caltech",
+    "releaseYear": "1965"
+  },
+  {
+    "name": "TTM",
+    "paradigm": "Imperative",
+    "designer": "Honeywell",
+    "releaseYear": "1960s"
+  },
+  {
+    "name": "T-SQL (Transact-SQL)",
+    "paradigm": "Declarative",
+    "designer": "Microsoft",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "Transcript (LiveCode)",
+    "paradigm": "Event-driven",
+    "designer": "RunRev",
+    "releaseYear": "2001"
+  },
+  {
+    "name": "TTCN (Tree and Tabular Combined Notation)",
+    "paradigm": "Functional",
+    "designer": "ITU",
+    "releaseYear": "1980"
+  },
+  {
+    "name": "Turing",
+    "paradigm": "Imperative",
+    "designer": "Ric Holt, James Cordy",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "TUTOR (PLATO Author Language)",
+    "paradigm": "Procedural",
+    "designer": "Donald Bitzer, Gary Pope",
+    "releaseYear": "1960"
+  },
+  {
+    "name": "TXL",
+    "paradigm": "Transformational",
+    "designer": "University of Kent",
+    "releaseYear": "1975"
+  },
+  {
+    "name": "TypeScript",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "Tynker",
+    "paradigm": "Educational",
+    "designer": "Tynker",
+    "releaseYear": "2012"
+  },
+  {
+    "name": "Ubercode",
+    "paradigm": "Procedural",
+    "designer": "Ubercode",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "UCSD Pascal",
+    "paradigm": "Procedural",
+    "designer": "UCSD",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "Umple",
+    "paradigm": "Object-oriented",
+    "designer": "Timothy C. Lethbridge, Andrew Forward",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Uniface",
+    "paradigm": "Procedural",
+    "designer": "Uniface",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "UNITY",
+    "paradigm": "Concurrent",
+    "designer": "Peter Ingerman",
+    "releaseYear": "1974"
+  },
+  {
+    "name": "Unix shell",
+    "paradigm": "Command line interface",
+    "designer": "Ken Thompson",
+    "releaseYear": "1971"
+  },
+  {
+    "name": "UnrealScript",
+    "paradigm": "Object-oriented",
+    "designer": "Epic Games",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "Vala",
+    "paradigm": "Multi-paradigm",
+    "designer": "GNOME",
+    "releaseYear": "2006"
+  },
+  {
+    "name": "VBA (Visual Basic for Applications)",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "1993"
+  },
+  {
+    "name": "VBScript",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Verilog",
+    "paradigm": "Hardware description",
+    "designer": "Phil Moorby, Prabhu Goel",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "VHDL",
+    "paradigm": "Hardware description",
+    "designer": "U.S. Department of Defense",
+    "releaseYear": "1987"
+  },
+  {
+    "name": "Vim script",
+    "paradigm": "Scripting",
+    "designer": "Bram Moolenaar",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Viper",
+    "paradigm": "Imperative",
+    "designer": "University of Sydney",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Visual Basic",
+    "paradigm": "Event-driven",
+    "designer": "Microsoft",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Visual Basic .NET",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "Visual DataFlex",
+    "paradigm": "Procedural",
+    "designer": "Data Access Worldwide",
+    "releaseYear": "1978"
+  },
+  {
+    "name": "Visual DialogScript",
+    "paradigm": "Procedural",
+    "designer": "Graybox Software",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Visual FoxPro",
+    "paradigm": "Procedural",
+    "designer": "Microsoft",
+    "releaseYear": "1984"
+  },
+  {
+    "name": "Visual J++",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "Visual J#",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "Visual LISP",
+    "paradigm": "Multi-paradigm",
+    "designer": "Autodesk",
+    "releaseYear": "1986"
+  },
+  {
+    "name": "Visual Objects",
+    "paradigm": "Object-oriented",
+    "designer": "Computer Associates",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Visual Prolog",
+    "paradigm": "Logic",
+    "designer": "Prolog Development Center",
+    "releaseYear": "1989"
+  },
+  {
+    "name": "VSXu",
+    "paradigm": "Multi-paradigm",
+    "designer": "VSXu",
+    "releaseYear": "2010"
+  },
+  {
+    "name": "Vue",
+    "paradigm": "Reactive",
+    "designer": "Evan You",
+    "releaseYear": "2014"
+  },
+  {
+    "name": "WebAssembly",
+    "paradigm": "Imperative",
+    "designer": "W3C",
+    "releaseYear": "2015"
+  },
+  {
+    "name": "WebDNA",
+    "paradigm": "Procedural",
+    "designer": "WebDNA Software",
+    "releaseYear": "1994"
+  },
+  {
+    "name": "Whiley",
+    "paradigm": "Functional",
+    "designer": "David J. Pearce",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Winbatch",
+    "paradigm": "Procedural",
+    "designer": "Wilson WindowWare",
+    "releaseYear": "1991"
+  },
+  {
+    "name": "Wolfram Language",
+    "paradigm": "Multi-paradigm",
+    "designer": "Wolfram Research",
+    "releaseYear": "1988"
+  },
+  {
+    "name": "Wyvern",
+    "paradigm": "Object-oriented",
+    "designer": "University of Texas at Austin",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "X++",
+    "paradigm": "Multi-paradigm",
+    "designer": "Microsoft",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "X10",
+    "paradigm": "Multi-paradigm",
+    "designer": "IBM",
+    "releaseYear": "2004"
+  },
+  {
+    "name": "XBL",
+    "paradigm": "Declarative",
+    "designer": "Mozilla",
+    "releaseYear": "2004"
+  },
+  {
+    "name": "XC",
+    "paradigm": "Imperative",
+    "designer": "Open Source",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "xHarbour",
+    "paradigm": "Procedural",
+    "designer": "Xailer",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "XL",
+    "paradigm": "Functional",
+    "designer": "Christophe de Dinechin",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Xojo",
+    "paradigm": "Object-oriented",
+    "designer": "Xojo, Inc.",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "XOTcl",
+    "paradigm": "Object-oriented",
+    "designer": "University of California, Irvine",
+    "releaseYear": "1994"
+  },
+  {
+    "name": "XPath",
+    "paradigm": "Declarative",
+    "designer": "W3C",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "XPL",
+    "paradigm": "Procedural",
+    "designer": "IBM",
+    "releaseYear": "1957"
+  },
+  {
+    "name": "XPL0",
+    "paradigm": "Procedural",
+    "designer": "Elliott Organick",
+    "releaseYear": "1960s"
+  },
+  {
+    "name": "XQuery",
+    "paradigm": "Declarative",
+    "designer": "W3C",
+    "releaseYear": "2007"
+  },
+  {
+    "name": "XSB",
+    "paradigm": "Logic",
+    "designer": "Stony Brook University",
+    "releaseYear": "1998"
+  },
+  {
+    "name": "XSLT",
+    "paradigm": "Declarative",
+    "designer": "W3C",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "Xtend",
+    "paradigm": "Object-oriented",
+    "designer": "Eclipse Foundation",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "Y",
+    "paradigm": "Functional",
+    "designer": "David Wise",
+    "releaseYear": "2009"
+  },
+  {
+    "name": "Yacc",
+    "paradigm": "Imperative",
+    "designer": "Stephen C. Johnson",
+    "releaseYear": "1970"
+  },
+  {
+    "name": "Yoix",
+    "paradigm": "Object-oriented",
+    "designer": "Nicholas Leslie",
+    "releaseYear": "2002"
+  },
+  {
+    "name": "Yorick",
+    "paradigm": "Procedural",
+    "designer": "David H. Munro",
+    "releaseYear": "1996"
+  },
+  {
+    "name": "YQL",
+    "paradigm": "Declarative",
+    "designer": "Yahoo!",
+    "releaseYear": "2008"
+  },
+  {
+    "name": "Z notation",
+    "paradigm": "Formal specification",
+    "designer": "Jean-Raymond Abrial",
+    "releaseYear": "1977"
+  },
+  {
+    "name": "Zebra, ZPL",
+    "paradigm": "Imperative",
+    "designer": "University of Cambridge",
+    "releaseYear": "1997"
+  },
+  {
+    "name": "Zeno",
+    "paradigm": "Educational",
+    "designer": "Vicki Brown",
+    "releaseYear": "2000"
+  },
+  {
+    "name": "Zsh",
+    "paradigm": "Scripting",
+    "designer": "Paul Falstad",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "ZPL",
+    "paradigm": "Imperative",
+    "designer": "University of Washington",
+    "releaseYear": "1992"
+  },
+  {
+    "name": "Z++",
+    "paradigm": "Object-oriented",
+    "designer": "Durand Sinapyan",
+    "releaseYear": "1999"
+  },
+  {
+    "name": "Z80 assembly",
+    "paradigm": "Imperative",
+    "designer": "Zilog",
+    "releaseYear": "1976"
+  },
+  {
+    "name": "Zeppelin",
+    "paradigm": "Educational",
+    "designer": "Alexander Stepanov",
+    "releaseYear": "2011"
+  },
+  {
+    "name": "ZeroC Ice",
+    "paradigm": "Multi-paradigm",
+    "designer": "ZeroC",
+    "releaseYear": "2003"
+  },
+  {
+    "name": "ZetaLisp",
+    "paradigm": "Multi-paradigm",
+    "designer": "DEC",
+    "releaseYear": "1979"
+  },
+  {
+    "name": "Zig",
+    "paradigm": "Imperative",
+    "designer": "Andrew Kelley",
+    "releaseYear": "2016"
+  },
+  {
+    "name": "ZOPL",
+    "paradigm": "Educational",
+    "designer": "University of Copenhagen",
+    "releaseYear": "1983"
+  },
+  {
+    "name": "Zsh",
+    "paradigm": "Scripting",
+    "designer": "Paul Falstad",
+    "releaseYear": "1990"
+  },
+  {
+    "name": "Zuse Z22/Z23",
+    "paradigm": "Procedural",
+    "designer": "Konrad Zuse",
+    "releaseYear": "1957"
+  }
+]
