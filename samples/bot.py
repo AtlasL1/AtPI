@@ -240,7 +240,7 @@ async def capital(interaction, perkataan: str):
 @bot.tree.command(name='oпределения-xимии', description='Дайте определение этому термину в химии.')
 async def capital(interaction, термин: str):
     try:
-        response = requests.get('https://atpi.proj.sbs/api/ru/oпределенияхимии.json')
+        response = requests.get('https://atpi.proj.sbs/api/ru/oпределения-химии.json')
         data = response.json()
         chem_def = next((item for item in data if item["термин"].lower() == термин.lower()), None)
         if chem_def:
@@ -256,7 +256,7 @@ async def capital(interaction, термин: str):
                 url='https://i.imgur.com/S2MI8QW.jpg'
             )
             embed.set_footer(
-                text='https://atpi.proj.sbs/api/ru/oпределенияхимии.json'
+                text='https://atpi.proj.sbs/api/ru/oпределения-химии.json'
             )
             await interaction.response.send_message(embed=embed)
         else:
