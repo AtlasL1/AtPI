@@ -402,13 +402,13 @@
     "releaseYear": "1972"
   },
   {
-    "name": "C-- (C minus minus)",
+    "name": "C--",
     "paradigm": "Imperative",
     "designer": "Geoff Collyer",
     "releaseYear": "Unknown"
   },
   {
-    "name": "C++ (C plus plus)",
+    "name": "C++",
     "paradigm": "Multi-paradigm: Procedural, Object-oriented, Generic",
     "designer": "Bjarne Stroustrup",
     "releaseYear": "1985"
@@ -420,7 +420,7 @@
     "releaseYear": "Unknown"
   },
   {
-    "name": "C# (C sharp)",
+    "name": "C#",
     "paradigm": "Multi-paradigm: Object-oriented, Component-oriented, Functional",
     "designer": "Microsoft",
     "releaseYear": "2000"
@@ -438,7 +438,7 @@
     "releaseYear": "Unknown"
   },
   {
-    "name": "C Shell (csh)",
+    "name": "C Shell",
     "paradigm": "Imperative",
     "designer": "Bill Joy",
     "releaseYear": "Unknown"
