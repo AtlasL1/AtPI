@@ -103,7 +103,7 @@ async def space(interaction):
     except requests.RequestException as e:
         await interaction.response.send_message(f'Error fetching space facts: {e}', ephemeral=True)
 
-@bot.tree.command(name='country-capitals', description='Fetch the capital city of a specific country from the Countries and Capitals API.')
+@bot.tree.command(name='country-capitals', description='Fetch the capital city of a specific country from the World Capitals API.')
 async def capital(interaction, country: str):
     try:
         response = requests.get('https://atpi.proj.sbs/api/world-capitals.json')
@@ -129,7 +129,7 @@ async def capital(interaction, country: str):
     except requests.exceptions.RequestException as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
-@bot.tree.command(name='physics-definition', description='Fetch the definition of a Physics term.')
+@bot.tree.command(name='physics-definition', description='Fetch the definition of a Physics term from the PhysDe API.')
 async def capital(interaction, term: str):
     try:
         response = requests.get('https://atpi.proj.sbs/api/physde.json')
@@ -156,8 +156,8 @@ async def capital(interaction, term: str):
     except requests.exceptions.RequestException as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
-@bot.tree.command(name='chemistry-definition', description='Fetch the definition of a Chemistry term.')
-async def capital(interaction, term: str):
+@bot.tree.command(name='chemistry-definition', description='Fetch the definition of a Chemistry term from the ChemDe API.')
+async def definition(interaction, term: str):
     try:
         response = requests.get('https://atpi.proj.sbs/api/chemde.json')
         data = response.json()
@@ -183,8 +183,8 @@ async def capital(interaction, term: str):
     except requests.exceptions.RequestException as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
-@bot.tree.command(name='化学词汇', description='获取化学术语的定义。')
-async def capital(interaction, 词: str):
+@bot.tree.command(name='化学词汇', description='从 ChemDe 获取化学术语的定义。')
+async def definition(interaction, 词: str):
     try:
         response = requests.get('https://atpi.proj.sbs/api/zh/化学词汇.json')
         data = response.json()
@@ -210,8 +210,8 @@ async def capital(interaction, 词: str):
     except requests.exceptions.RequestException as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
-@bot.tree.command(name='definisi-kimia', description='Cari definisi suatu istilah Kimia.')
-async def capital(interaction, perkataan: str):
+@bot.tree.command(name='definisi-kimia', description='Cari definisi suatu istilah Kimia dari ChemDe.')
+async def definition(interaction, perkataan: str):
     try:
         response = requests.get('https://atpi.proj.sbs/api/ms/defkimia.json')
         data = response.json()
@@ -237,8 +237,8 @@ async def capital(interaction, perkataan: str):
     except requests.exceptions.RequestException as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
-@bot.tree.command(name='oпределения-xимии', description='Дайте определение этому термину в химии.')
-async def capital(interaction, термин: str):
+@bot.tree.command(name='oпределения-xимии', description='Получите определение химического термина из ChemDe.')
+async def definition(interaction, термин: str):
     try:
         response = requests.get('https://atpi.proj.sbs/api/ru/oпределения-химии.json')
         data = response.json()
@@ -262,6 +262,34 @@ async def capital(interaction, термин: str):
         else:
             await interaction.response.send_message(f'Term `\'{термин}\'` not found in the data.', ephemeral=True)
     except requests.exceptions.RequestException as e:
+        await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
+
+@bot.tree.command(name='programming-languages', description='Fetch the info of a specific programming language from the Programming Languages API.')
+async def info(interaction, language: str):
+    try:
+        response = requests.get('https://atpi.proj.sbs/api/programming-langs.json')
+        response.raise_for_status()
+        data = response.json()
+        lang_info = next((item for item in data if item['name'].lower() == language.lower()), None)
+        if lang_info:
+            embed = discord.Embed(
+                title='Programming Languages',
+                description=f'**Language**: {lang_info["name"]}\n'
+                            f'**Paradigm**: {lang_info["paradigm"]}\n'
+                            f'**Designer**: {lang_info["designer"]}\n'
+                            f'**Release Year**: {lang_info["releaseYear"]}',
+                colour=discord.Colour.dark_blue()
+            )
+            embed.set_image(
+                url=f'https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae'
+            )
+            embed.set_footer(
+                text='https://atpi.proj.sbs/api/programming-langs.json'
+            )
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message(f'The programming language `{language}` was not found in the data.', ephemeral=True)
+    except Exception as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
 bot.run('TOKEN')
