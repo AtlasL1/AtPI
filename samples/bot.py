@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 from discord.ext.commands import CommandNotFound
+from discord.ui import Select, View
 import requests
 import random
 
@@ -291,5 +292,106 @@ async def info(interaction, language: str):
             await interaction.response.send_message(f'The programming language `{language}` was not found in the data.', ephemeral=True)
     except Exception as e:
         await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
+
+class PartnerSelect(Select):
+  async def callback(self, interaction: discord.Interaction):
+    if self.values[0] == 'imag':
+        imag_embed = (
+            discord.Embed(
+                title='IMAG',
+                description='The International Moving Astronomy Gallery.\nFictional astronomical creations deployed into data files.',
+                colour=discord.Colour.from_rgb(27, 33, 55)
+            )
+        )
+        imag_embed.set_image(
+            url='https://media.discordapp.net/attachments/1146406609094967337/1202559228347416586/OIG1.jpeg')
+        await interaction.response.edit_message(embed=imag_embed, view=Planets())
+
+
+@bot.tree.command(name='partnered', description='View the partners of AtPI.')
+async def partnered(interaction):
+    embed = (
+        discord.Embed(
+            title='Partners of AtPI',
+            description='Please select one of the partners to check out their builds.',
+            colour=discord.Colour.dark_grey()
+        )
+    )
+    await interaction.response.send_message(embed=embed, view=PartnerOptions())
+
+class PartnerOptions(discord.ui.View):
+    def __init__(self):
+        super().__init__()
+        self.add_item(PartnerSelect(
+            options=[
+                discord.SelectOption(
+                    label='IMAG',
+                    description='View info on IMAG',
+                    emoji='<:imag:1202574791148707860>',
+                    value='imag'
+                )
+            ],
+            row=0
+        ))
+
+class PlanetSelect(Select):
+    async def callback(self, interaction: discord.Interaction):
+        if self.values[0] == 'a3750':
+            try:
+                json_url = 'https://atpi.proj.sbs/partnered/imag/a3750-9.json'
+                response = requests.get(json_url)
+                data = response.json()
+                embed = discord.Embed(
+                    title='Planet A3750-9',
+                    description=f'**Name**: {data[0]["name"]}\n'
+                                f'**Right Ascension**: {data[0]["rightAscension"]}\n'
+                                f'**Declination**: {data[0]["declination"]}\n'
+                                f'**Apparent Magnitude**: {data[0]["apparentMagnitude"]}\n'
+                                f'**Evolutionary Stage**": {data[0]["evolutionaryStage"]}\n'
+                                f'**Spectral Type**: {data[0]["spectralType"]}\n'
+                                f'**Radial Velocity**: {data[0]["radialVelocity"]}\n'
+                                f'**Parallax**: {data[0]["parallax"]}\n'
+                                f'**Mass**: {data[0]["mass"]}\n'
+                                f'**Radius**: {data[0]["radius"]}\n'
+                                f'**Luminousity**: {data[0]["luminousity"]}\n'
+                                f'**Surface Gravity**: {data[0]["surfaceGravity"]}\n'
+                                f'**Temperature**: {data[0]["temperature"]}',
+                    colour=discord.Colour.from_rgb(1, 1, 1)
+                )
+                embed.set_image(
+                    url='https://media.discordapp.net/attachments/1146406609094967337/1202940846207537152/OIG1.png'
+                )
+                embed.set_footer(
+                    text='https://atpi.proj.sbs/partnered/imag/a3750-9.json'
+                )
+                await interaction.response.send_message(embed=embed)
+            except Exception as e:
+                await interaction.response.send_message(f'Error fetching data: {e}', ephemeral=True)
+
+class PlanetOptions(discord.ui.View):
+    def __init__(self):
+        super().__init__()
+        self.add_item(PlanetSelect(
+            options=[
+                discord.SelectOption(
+                    label='Planet A3750-9',
+                    description='View info on Planet A3750-9',
+                    value='a3750'
+                )
+            ]
+        ))
+class Planets(discord.ui.View):
+    @discord.ui.button(label='Planets', row=1, style=discord.ButtonStyle.primary)
+    async def button_callback(self, interaction: discord.Interaction, button: discord.ui.Button):
+        embed = (
+            discord.Embed(
+                title='Planets',
+                description='Fictional planets from IMAG.',
+                colour=discord.Colour.gold()
+            )
+        )
+        embed.set_thumbnail(url='https://media.discordapp.net/attachments/1146406609094967337/1202937988024111104/OIG3.png')
+        await interaction.response.send_message(embed=embed, view=PlanetOptions())
+
 
 bot.run('TOKEN')
