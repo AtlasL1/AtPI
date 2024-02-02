@@ -1,0 +1,17 @@
+[
+    {
+        "name": "A3750-9",
+        "rightAscension": "12h 10m 37.92303s",
+        "declination": "-33° 47' 43.7397\"",
+        "apparentMagnitude": "13.9 - ~16.8",
+        "evolutionaryStage": "pre-main sequence",
+        "spectralType": "K5 IV(e) Li",
+        "radialVelocity": "5.73±3.92 km/s",
+        "parallax": "7.3377 ± 0.0170 mas",
+        "mass": "0.9 solar mass",
+        "radius": "> 0.98 ± 0.032 solar radius",
+        "luminousity": "0.38 solar luminousity",
+        "surfaceGravity": "4.57 cgs",
+        "temperature": "1203±100 K"
+    }
+]
