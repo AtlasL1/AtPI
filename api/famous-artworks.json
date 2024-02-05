@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Mona Lisa",
+    "artist": "Leonardo Da Vinci",
+    "year": "1500-1508",
+    "location": "Louvre, Paris",
+    "notes": "Leonardo’s Mona Lisa is one of the most famous paintings in the world. Today, it's housed at the Louvre in Paris, France but it was created in Florence, Italy when Leonardo moved there to live from 1500-1508. Mona Lisa looks directly out at us, the viewers, which was something unconventional for a portrait painting during that time. ",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Mona_Lisa_By_Leonardo_Da_Vinci_large.jpg"
+  },
+  {
+    "name": "The Starry Night",
+    "artist": "Vincent Van Gogh",
+    "year": "1889",
+    "location": "Museum of Modern Art, New York",
+    "notes": "Starry Night is one of the most recognized art pieces in the world. Resonating with so many people around the world, it is a testament to its own originality which is timeless and universal.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Starry_Night_By_Vincent_Van_Gogh_5fea445a-de35-4ebc-b749-408bf21bac34_large.jpg"
+  },
+  {
+    "name": "The Birth of Venus",
+    "artist": "Sandra Botticelli",
+    "year": "1485-1486",
+    "location": "Uffizi Galery",
+    "notes": "The painting showcases the birth of the goddess Venus, arriving at the base ashore, on the island of Cyprus, conceived in a sea shell she is pushed by the breezes: Zephyr and, maybe, Aura. The goddess is met by a young lady, who is in some cases is recognized as one of the Graces or as the Hora of spring, and she holds out a shroud ready to cover Venus."
+  },
+  {
+    "name": "Girl with a Pearl Earring",
+    "artist": "Johannes Vermeer",
+    "year": "1665",
+    "location": "Mauritshuis, The Hague, Netherlands",
+    "notes": "Vermeer's most well-known painting. Delineates a young lady, looking at her observer, in a yellow-brown dress, wearing an oriental turban, and an unrealistically huge pearl in her ear.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg"
+  },
+  {
+    "name": "The Last Supper",
+    "artist": "Leonardo Da Vinci",
+    "year": "1495-1498",
+    "location": "Santa Maria delle Grazie",
+    "notes": "The Last Supper is a late fifteenth-century Christian painting done by the world renowned Italian artist Leonardo da Vinci. It's housed at the Convent of Santa Maria Delle Grazie in Milan, Italy.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Last_Supper_by_Leonardo_da_Vinci_2dbb8dff-7d8a-4c0b-ab5b-814776e0bb18_large.jpg"
+  },
+  {
+    "name": "The Kiss",
+    "artist": "Gustav Klint",
+    "year": "1907-1908",
+    "location": "Belvedere Palace",
+    "notes": "The Kiss is a unique oil painting, which includes silver and gold leafs. It was painted between 1907 and 1908 during the time of Klimt's \"Golden Period\".",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Kiss_by_Gustav_Klimt_large.jpg?v=1571687337"
+  },
+  {
+    "name": "Las Meninas",
+    "artist": "Diego Velázquez",
+    "year": "1656",
+    "location": "Museo del Prado",
+    "notes": "Las Meninas is a 1656 painting currently displayed at the Museo del Prado in Madrid. Diego Velázquez, was one of the main artists of the Spanish Golden Age. ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1200px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg"
+  },
+  {
+    "name": "American Gothic",
+    "artist": "Grant Wood",
+    "year": "1930",
+    "location": "The Art Institue of Chicago",
+    "notes": "American Gothic is a 1930 painting housed at the Art Institute of Chicago. Wood was motivated to paint what is currently known as the American Gothic House in Eldon, Iowa. ",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/American_Gothic_by_Grant_Wood_large.jpg?v=1571687444"
+  },
+  {
+    "name": "A Sunday Afternoon on the Island of La Grande Jatte",
+    "artist": "Georges Seurat",
+    "year": "1884",
+    "location": "The Art Institute of Chicago",
+    "notes": "A Sunday Afternoon on the Island of La Grande Jatte was painted in 1884, and is Georges Seurat's most renowned artwork. It brilliantly showcases the pointillist style. Seurat's composition incorporates various Parisians at a park center on the banks of the River Seine. ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/1200px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg"
+  },
+  {
+    "name": "Guernica",
+    "artist": "Pablo Picasso",
+    "year": "1937",
+    "location": "Museo Reina Sofía",
+    "notes": "Guernica is an enormous oil painting that was finished in June 1937. It's presently displayed at the Museo Reina Sofía in Madrid. Parts of the painting where finished in Paris, where Picasso's had a home.",
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*syqKbYFGP5WRdu6D4sdHQg.jpeg"
+  },
+  {
+    "name": "The Night Watch",
+    "artist": "Rembrandt",
+    "year": "1642",
+    "location": "Rijksmuseum",
+    "notes": "Local army Company of District II, under the Command of Captain Frans Banninck Cocq, otherwise called The Shooting Company of Frans Banning Cocq and Willem van Ruytenburch, is captured in The Night Watch.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Night_Watch_by_Rembrandt_large.jpg"
+  },
+  {
+    "name": "Café Terrace at Night",
+    "artist": "Vincent van Gogh",
+    "year": "1888",
+    "location": "Kröller-Müller Museum",
+    "notes": "Café Terrace at Night is an 1888 oil painting by the famous Dutch artists Vincent van Gogh. It's often called, The Cafe Terrace on the Place du Forum. Furthermore, when it was originally displayed in 1891, it was titled Coffeehouse at Night.",
+    "image": "https://wallpapercave.com/wp/wp2112101.jpg"
+  },
+  {
+    "name": "Whistler's Mother",
+    "artist": "James Abbott McNeill Whistler",
+    "year": "1871",
+    "location": "Musée d'Orsay (since 2019), Louvre Abu Dhabi (until 2019)",
+    "notes": "The Gray and Black No.1, best known under the title of Whistler's Mother, is an oil on canvas painting created by the famous American painter James McNeill Whistler in 1871. The subject of the work is Whistler's mom, Anna McNeill Whistler.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Whistler_s_Mother_by_James_Abbott_McNeill_Whistler_large.jpg"
+  },
+  {
+    "name": "The Sleeping Gypsy",
+    "artist": "Henri Rousseau",
+    "year": "1897",
+    "location": "The Museum of Modern Art",
+    "notes": "The Sleeping Gypsy is a 1897 oil painting by the famous French artist Henri Rousseau. It is a fantastical delineation of a lion and a resting gypsy on a twilight night. ",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Sleeping_Gypsy_by_Henri_Rousseau_large.jpg"
+  },
+  {
+    "name": "Bal du moulin de la Galette",
+    "artist": "Pierre-Auguste Renoir",
+    "year": "1876",
+    "location": "Musée d'Orsay",
+    "notes": "Bal du moulin de la Galette is an 1876 painting by French artist Pierre-Auguste Renoir. It is housed at the Musée d'Orsay in Paris and is one of the most renowned Impressionist pieces. The work of art portrays a sunday evening at the first Moulin de la Galette of Montmartre in Paris.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Bal_du_moulin_de_la_Galette_by_Pierre-Auguste_Renoir_d1c9f4e7-113b-43b7-9426-6e58eaa4cf98_large.jpg"
+  },
+  {
+    "name": "Impression, Sunrise",
+    "artist": "Claude Monet",
+    "year": "1872",
+    "location": "Musée Marmottan Monet",
+    "notes": "Impression, Sunrise was showcased at what might be considered the first impressionism, known as the \"Display of the Impressionists\" in Paris on April 1874. Impression, Sunrise delineates the port of Le Havre, close to Monet's main residency.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Impression_Sunrise_by_Claude_Monet_large.jpg"
+  },
+  {
+    "name": "The Third of May 1808",
+    "artist": "Francisco Goya",
+    "year": "1814",
+    "location": "Museo Nacional del Prado",
+    "notes": "The Third of May 1808 is a work of art finished on 1814 by the Spanish painter Francisco Goya. The painting is presently at the Museo del Prado, Madrid. In the work, Goya recognizes the Napoleon's armed forces during the killing of 1808 in the Peninsular War.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Third_of_May_1808_by_Francisco_Goya_large.jpg"
+  },
+  {
+    "name": "Liberty Leading the People",
+    "artist": "Eugène Delacroix",
+    "year": "1830",
+    "location": "Louvre Museum",
+    "notes": "Liberty Leading the People is a work by Eugène Delacroix celebrating the July Revolution of 1830, which toppled King Charles X of France.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg"
+  },
+  {
+    "name": "Le Déjeuner sur l’herbe",
+    "artist": "Édouard Manet",
+    "year": "1862–1863",
+    "location": "Musée d'Orsay",
+    "notes": "Le Déjeuner sur l'herbe – initially titled Le Bain – is an enormous oil on canvas painting by Édouard Manet painted around 1863. It delineates a female bare and two completely dressed men in a provincial setting.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Le_Dejeuner_sur_l_herbe_by_Edouard_Manet_large.jpg"
+  },
+  {
+    "name": "Lady with an Ermine",
+    "artist": "Leonardo da Vinci",
+    "year": "1489",
+    "location": "The Princes Czartoryski Museum (since 2019), National Museum in Krakow (2017–2019)",
+    "notes": "Lady with an Ermine is a work of art by Italian artist Leonardo da Vinci from around 1489–1490 and one of Poland's national fortunes. The subject is Cecilia Gallerani, she was the lady of Ludovico Sforza, Duke of Milan, and Leonardo was in the Duke's administration.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Lady_with_an_Ermine_by_Leonardo_da_Vinci_large.jpg"
+  },
+  {
+    "name": "The Raft of the Medusa",
+    "artist": "Théodore Géricault",
+    "year": "1818-1819",
+    "location": "Louvre Museum",
+    "notes": "The Raft of the Medusa – initially titled Scène de Naufrage – is an oil painting by the French Romantic painter and lithographer Théodore Géricault. It was finished when the artist was 27, the work became a symbol of French Romanticism.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Raft_of_the_Medusa_by_Theodore_Gericault_large.jpg"
+  },
+  {
+    "name": "Nighthawks",
+    "artist": "Edward Hopper",
+    "year": "1942",
+    "location": "School of the Art Institute of Chicago",
+    "notes": "Nighthawks is a 1942 oil on canvas painting by Edward Hopper. It depicts individuals in a downtown coffee shop late in the evening, seen through the burger joint's enormous glass window.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg"
+  },
+  {
+    "name": "Luncheon of the Boating Party",
+    "artist": "Pierre-Auguste Renoir",
+    "year": "1880-1881",
+    "location": "The Phillips Collection",
+    "notes": "Luncheon of the Boating Party is a work of art by French impressionist Pierre-Auguste Renoir. It was incorporated into the seventh Impressionist Exhibition in 1882, it was distinguished as the best painting in the show by three critics.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Luncheon_of_the_Boating_Party_by_Pierre-Auguste_Renoir_large.jpg"
+  },
+  {
+    "name": "Napoleon Crossing the Alps",
+    "artist": "Jacques-Louis David",
+    "year": "1801–1805",
+    "location": "Château de Malmaison",
+    "notes": "Between 1801 and 1805, the French artist Jacques-Louis David painted a series of five oil on canvas horse portraits of Napoleon Bonaparte. The painting, which was commissioned by the King of Spain, depicts a highly romanticized version of Napoleon's actual crossing of the Alps through the Great St Bernard Pass in May 1800. It has become one of Napoleon's most often reprinted photographs.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/Napoleon_Crossing_the_Alps_by_Jacques-Louis_David_large.jpg"
+  },
+  {
+    "name": "View of Toledo",
+    "artist": "El Greco",
+    "year": "1596–1600",
+    "location": "The Metropolitan Museum of Art",
+    "notes": "View of Toledo is one of the two enduring scenes painted by El Greco. The other, View and Plan of Toledo, is in plain view at the Museo de El Greco in Toledo.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/View_of_Toledo_by_El_Greco_bd3b8d23-deb1-4cc9-8224-73b97f54d6d7_large.jpg"
+  },
+  {
+    "name": "The Storm on the Sea of Galilee",
+    "artist": "Rembrandt",
+    "year": "1633",
+    "location": "Isabella Stewart Gardner Museum (until 1990)",
+    "notes": "The Storm on the Sea of Galilee is a 1633 painting by the Dutch Golden Age painter Rembrandt van Rijn. It was beforehand in the Isabella Stewart Gardner Museum in Boston, yet it was stolen in 1990 and stays missing.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Storm_on_the_Sea_of_Galilee_by_Rembrandt_large.jpg"
+  },
+  {
+    "name": "The Harvesters",
+    "artist": "Pieter Bruegel the Elder",
+    "year": "1565",
+    "location": "The Metropolitan Museum of Art",
+    "notes": "The viewer is transported to a hot summer day in the Netherlands in this piece. It's part of a series commissioned by Niclaes Jongelinck, an Antwerp merchant, for his suburban home.",
+    "image": "https://cdn.shopify.com/s/files/1/1771/4067/files/The_Harvesters_by_Pieter_Bruegel_the_Elder_large.jpg"
+  },
+  {
+    "name": "The Arnolfini Portrait",
+    "artist": "Jan van Eyck",
+    "year": "1434",
+    "location": "The National Gallery",
+    "notes": "The Arnolfini Portrait is a 1434 oil painting on wood panel by Jan van Eyck, an Early Netherlandish painter. It is thought to be a fulllength double portrait of Italian businessman Giovanni di Nicolao Arnolfini and his wife, likely in their home in the Flemish city of Bruges.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/1200px-The_Arnolfini_portrait_%281434%29.jpg"
+  }
+]
