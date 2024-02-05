@@ -1,0 +1,1668 @@
+<html lang="zh-CN" data-theme="dark" style="--anzhiyu-bar-background: var(--anzhiyu-meta-theme-color); --anzhiyu-main: #f2b94b; --anzhiyu-theme-op: #f2b94b23; --anzhiyu-theme-op-deep: #f2b94bdd;"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>AtPI.Proj.SBS</title>
+  <script>
+           if (window.innerWidth >= 767) {
+            window.location.href = 'https://atpi.proj.sbs';
+        }
+    </script>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/1146406609094967337/1195695010679627826/2e2b58e005e91f684ad7f5f69ff2fd65-modified.png" sizes="32x32">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#000">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh-CN">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="//npm.elemecdn.com">
+  <link rel="preconnect" href="//npm.onmicrosoft.cn">
+  <link rel="preconnect" href="//www.google-analytics.com" crossorigin="">
+  <link rel="preconnect" href="//hm.baidu.com">
+  <link rel="preconnect" href="//www.clarity.ms">
+  <link rel="preconnect" href="//busuanzi.ibruce.info">
+  <meta name="baidu-site-verification" content="code-c11fHUvIP7">
+  <meta name="google-site-verification" content="K1G97FFTA-U4W_dpy2rUBjs2eV2GT4ogWAcLPiNAlWg">
+  <meta name="msvalidate.01" content="xxx">
+  <link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css">
+  <link rel="stylesheet" href="/site/css/index.css">
+  <script>
+           if (window.innerWidth >= 767) {
+            window.location.href = 'https://atpi.proj.sbs/';
+        }
+    </script>
+  <script>window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-SHSWNG9RK9');
+  </script>
+  <script>const GLOBAL_CONFIG = {
+      root: '/',
+      preloader: {"source": 3},
+      friends_vue_info: {"apiurl": "https://friendscricle.dishangti.top/"},
+      navMusic: true,
+      mainTone: {"mode": "api", "api": "https://img2color.dishangti.top/api?img=", "cover_change": true},
+      authorStatus: {"skills": []},
+      algolia: undefined,
+      localSearch: {"path": "/search.xml", "preload": true, "languages": {"hits_empty": "找不到您查询的内容：${query}"}},
+      noticeOutdate: {"limitDay": 365, "position": "top", "messagePrev": "It has been", "messageNext": "days since the last update, the content of the article may be outdated."},
+      highlight: {"plugin": "highlighjs", "highlightCopy": true, "highlightLang": true, "highlightHeightLimit": 330},
+      copy: {
+        success: 'Copied to clipboard!',
+        error: 'Error copying item to clipboard.',
+        noSupport: 'Copying is not supported in your browser.'
+      },
+      relativeDate: {
+        homepage: true,
+        simplehomepage: false,
+        post: true
+      },
+      runtime: 'Days',
+      date_suffix: {
+        just: 'Just Now',
+        min: 'Minutes Ago',
+        hour: 'Hours Ago',
+        day: 'Days Ago',
+        month: 'Months ago'
+      },
+      copyright: undefined,
+      lightbox: 'fancybox',
+      Snackbar: {"day_to_night": "You have switched to dark theme.", "night_to_day": "You have switched to light theme.", "bgLight": "#3b70fc", "bgDark": "#1f1f1f", "position": "top-center"},
+      source: {
+        justifiedGallery: {
+          js: 'https://npm-doge.42pic.top/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+          css: 'https://npm-doge.42pic.top/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+        }
+      },
+      isPhotoFigcaption: false,
+      islazyload: true,
+      isAnchor: true,
+      shortcutKey: true
+    }
+  </script>
+  <script id="config-diff">var GLOBAL_CONFIG_SITE = {
+      title: 'AtPI',
+      isPost: false,
+      isHome: true,
+      isHighlightShrink: false,
+      isToc: false,
+      postUpdate: '2023-11-15 08:41:28'
+    }
+  </script>
+  <noscript>
+    <style type="text/css">
+      #nav {
+        opacity: 1
+      }
+
+      .justified-gallery img {
+        opacity: 1
+      }
+
+      #recent-posts time,
+      #post-meta time {
+        display: inline !important
+      }
+    </style>
+  </noscript>
+  <script>(win => {
+        win.saveToLocal = {
+          set: function setWithExpiry(key, value, ttl) {
+            if (ttl === 0) return
+            const now = new Date()
+            const expiryDay = ttl * 86400000
+            const item = {
+              value: value,
+              expiry: now.getTime() + expiryDay,
+            }
+            localStorage.setItem(key, JSON.stringify(item))
+          },
+
+          get: function getWithExpiry(key) {
+            const itemStr = localStorage.getItem(key)
+
+            if (!itemStr) {
+              return undefined
+            }
+            const item = JSON.parse(itemStr)
+            const now = new Date()
+
+            if (now.getTime() > item.expiry) {
+              localStorage.removeItem(key)
+              return undefined
+            }
+            return item.value
+          }
+        }
+
+        win.getScript = url => new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+          script.src = url
+          script.async = true
+          script.onerror = reject
+          script.onload = script.onreadystatechange = function () {
+            const loadState = this.readyState
+            if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+            script.onload = script.onreadystatechange = null
+            resolve()
+          }
+        })
+
+        win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+          link.rel = 'stylesheet'
+          link.href = url
+          if (id) link.id = id
+          link.onerror = reject
+          link.onload = link.onreadystatechange = function () {
+            const loadState = this.readyState
+            if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+            link.onload = link.onreadystatechange = null
+            resolve()
+          }
+        })
+
+        win.activateDarkMode = function () {
+          document.documentElement.setAttribute('data-theme', 'dark')
+          if (document.querySelector('meta[name="theme-color"]') !== null) {
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+          }
+        }
+        win.activateLightMode = function () {
+          document.documentElement.setAttribute('data-theme', 'light')
+          if (document.querySelector('meta[name="theme-color"]') !== null) {
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+          }
+        }
+        const t = saveToLocal.get('theme')
+
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+        const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+        const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+        const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+        if (t === undefined) {
+          if (isLightMode) activateLightMode()
+          else if (isDarkMode) activateDarkMode()
+          else if (isNotSpecified || hasNoSupport) {
+            const now = new Date()
+            const hour = now.getHours()
+            const isNight = hour <= 6 || hour >= 18
+            isNight ? activateDarkMode() : activateLightMode()
+          }
+          window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+            if (saveToLocal.get('theme') === undefined) {
+              e.matches ? activateDarkMode() : activateLightMode()
+            }
+          })
+        } else if (t === 'light') activateLightMode()
+        else activateDarkMode()
+
+        const asideStatus = saveToLocal.get('aside-status')
+        if (asideStatus !== undefined) {
+          if (asideStatus === 'hide') {
+            document.documentElement.classList.add('hide-aside')
+          } else {
+            document.documentElement.classList.remove('hide-aside')
+          }
+        }
+
+        const detectApple = () => {
+          if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+            document.documentElement.classList.add('apple')
+          }
+        }
+        detectApple()
+      })(window)
+  </script>
+  <link rel="stylesheet" href="/site/css/custom.css">
+  <meta name="generator" content="Hexo 6.3.0">
+<link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/world-capitals.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/physde.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/space-facts.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/chemde.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ru" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ms" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/chemde.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/physde.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/programming-langs.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ms" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ms" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/ru" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/partnered" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/space-facts.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/world-capitals.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/programming-langs.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/chemde.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/physde.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/partnered" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/welcome.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/bioe.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/api/famous-artworks.json" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/mobile/site/zh" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/mobile/site/ms" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/mobile/site/ru" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/mobile/site/partnered" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh/site/zh" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh/site/partnered" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh/site/ru" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/zh" fetchpriority="high" as="document"><link rel="prefetch" href="https://atpi.proj.sbs/site/partnered" fetchpriority="high" as="document"></head>
+
+<body data-type="anzhiyu" style="overflow: auto;">
+  <div id="web_bg"></div>
+  <div id="an_music_bg"></div>
+    
+  
+  <script>if (GLOBAL_CONFIG.preloader.source == "2" || GLOBAL_CONFIG.preloader.source == "3") {
+      const loadingPercentage = document.getElementById("loading-percentage");
+      let loadingPercentageTimer = setInterval(function () {
+        var progressBar = document.querySelector(".pace-progress");
+        if (!progressBar) return
+        var currentValue = progressBar.getAttribute("data-progress-text");
+        if (currentValue !== loadingPercentage.textContent) {
+          loadingPercentage.textContent = currentValue;
+          if (currentValue === "100%") {
+            clearInterval(loadingPercentageTimer);
+          }
+        }
+      }, 100);
+    }
+
+    const preloader = {
+      endLoading: () => {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loading-box').classList.add("loaded");
+      },
+      initLoading: () => {
+        document.body.style.overflow = '';
+        document.getElementById('loading-box').classList.remove("loaded")
+      }
+    }
+    window.addEventListener('load', () => {preloader.endLoading()})
+    setTimeout(function () {preloader.endLoading();}, 10000)
+
+    if (true) {
+      document.addEventListener('pjax:send', () => {preloader.initLoading()})
+      document.addEventListener('pjax:complete', () => {preloader.endLoading()})
+    }
+  </script>
+
+  <div id="web_box" class="" style="transition: all 0.3s ease-out 0s; transform: none;">
+    <div id="web_container" style="background: var(--global-bg);">
+      <div id="menu-mask" style="animation: 0.5s ease 0s 1 normal none running to_hide;"></div>
+      <div class="page" id="body-wrap">
+        <header class="not-top-img" id="page-header">
+          <nav id="nav" class="show hide-menu" style="border-top-left-radius: 0px;">
+            <div id="nav-group">
+              <span id="blog_name">
+                
+                <a id="site-name" href="" accesskey="h" draggable="false">
+                  <div class="title">AtPI.Proj.SBS</div>
+                  <i class=""></i>
+                </a>
+              </span>
+              <div class="mask-name-container">
+              </div>
+              <div id="menus">
+                <div class="menus_items">
+                  <div class="menus_item">
+                  </div>
+                </div>
+              </div>
+              <div id="nav-right">
+                <div id="console">
+                  <div class="console-card-group-reward">
+                    <ul class="reward-all console-card">
+                      <li class="reward-item">
+                        <a href="" target="_blank" draggable="false"><img class="post-qr-code-img" alt="wechat" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="" draggable="false"></a>
+                        <div class="post-qr-code-desc">wechat</div>
+                      </li>
+                      <li class="reward-item">
+                        <a href="" target="_blank" draggable="false"><img class="post-qr-code-img" alt="alipay" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="" draggable="false"></a>
+                        <div class="post-qr-code-desc">alipay</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="console-card-group">
+                    <div class="console-card-group-left">
+                      <div class="console-card" id="card-newest-comments">
+                        <div class="card-content">
+                          <div class="author-content-item-tips">互动</div>
+                          <span class="author-content-item-title"> <span>最新评论</span></span>
+                        </div>
+                        <div class="aside-list"><span>正在加载中...</span></div>
+                      </div>
+                    </div>
+                    <div class="console-card-group-right">
+                      <div class="console-card ">
+                        <div class="card-content">
+                          <div class="author-content-item-tips">兴趣点</div>
+                          <span class="author-content-item-title">寻找你感兴趣的领域</span>
+                          <div class="card-">
+                            <div class="item-headline"></div>
+                            <div class="card-tag-cloud"><a style="font-size: 1.05rem;" draggable="false">📁Hexo<sup>3</sup></a><a style="font-size: 1.05rem;" draggable="false">📖学习笔记<sup>1</sup></a><a href="//%F0%9F%96%A5%EF%B8%8FLinux/" style="font-size: 1.05rem;" draggable="false">🖥️Linux<sup>3</sup></a></div>
+                          </div>
+                          <hr>
+                        </div>
+                      </div>
+                      <div class="console-card history">
+                        <div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span>
+                        </div>
+                        <div class="card-archives">
+                          <div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span>
+                          </div>
+                          <ul class="card-archive-list">
+                            <li class="card-archive-list-item">
+                              <a class="card-archive-list-link" href="/archives/2023/07/" draggable="false">
+                                <span class="card-archive-list-date">七月 2023</span>
+                                <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div>
+                              </a>
+                            </li>
+                            <li class="card-archive-list-item">
+                              <a class="card-archive-list-link" href="/archives/2022/04/" draggable="false">
+                                <span class="card-archive-list-date">四月 2022</span>
+                                <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div>
+                              </a>
+                            </li>
+                            <li class="card-archive-list-item">
+                              <a class="card-archive-list-link" href="/archives/2022/01/" draggable="false">
+                                <span class="card-archive-list-date">一月 2022</span>
+                                <div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div>
+                              </a>
+                            </li>
+                            <li class="card-archive-list-item">
+                              <a class="card-archive-list-link" href="/archives/2021/12/" draggable="false">
+                                <span class="card-archive-list-date">十二月 2021</span>
+                                <div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <hr>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="button-group">
+                    <div class="console-btn-item"><a class="darkmode_switchbutton" onclick="anzhiyu.switchDarkMode()" title="显示模式切换" draggable="false"><i class="anzhiyufont anzhiyu-icon-moon"></i></a>
+                    </div>
+                    <div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制">
+                      <a class="asideSwitch" draggable="false"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div>
+                    <div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage" draggable="false"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div>
+                    <div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch" draggable="false"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div>
+                    <div class="console-btn-item on" id="consoleKeyboard" onclick="anzhiyu.keyboardToggle()" title="快捷键开关">
+                      <a class="keyboard-switch" draggable="false"><i class="anzhiyufont anzhiyu-icon-keyboard"></i></a></div>
+                  </div>
+                  <div class="console-mask" onclick="anzhiyu.hideConsole()"></div>
+                </div>
+                <div class="nav-button long" id="nav-totop"><a class="totopbtn" draggable="false"><i class=""></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">Top</span></a></div>
+                
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="bbTimeList container" id="bbTimeList">
+          <div class="swiper-container swiper-no-swiping essay_bar_swiper_container" id="bbtalk" tabindex="-1">
+            <div class="swiper-wrapper" id="bber-talk" onclick="pjax.loadUrl(&quot;&quot;)">
+              <div class="li-style swiper-slide">Contribute to AtPI through <a href="https://github.com/AtlasL1/AtPI" target="_blank" draggable="false">GitHub!</a></div><a href="https://github.com/AtlasL1/AtPI" draggable="false">
+            </a></div><a href="https://github.com/AtlasL1/AtPI" draggable="false">
+          </a></div><a href="https://github.com/AtlasL1/AtPI" draggable="false">
+        </a></div><a href="https://github.com/AtlasL1/AtPI" draggable="false">
+        </a><div id="home_top"><a href="https://github.com/AtlasL1/AtPI" draggable="false">
+          </a><div class="swiper_container_card" style="height: auto;width: 100%"><a href="https://github.com/AtlasL1/AtPI" draggable="false">
+            </a><div id="bannerGroup"><a href="https://github.com/AtlasL1/AtPI" draggable="false">
+              </a><div id="random-banner"><p draggable="false">
+                </p><div class="banners-title">
+                  <div class="banners-title-big">Open-sourced,</div>
+                  <div class="banners-title-big">Free APIs</div>
+                  <div class="banners-title-small">ΛTLΛS.IS-NOT-A.DEV</div>
+                </div>
+                <div id="skills--group-all">
+                  <div class="-group-wrapper">
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                    <div class="-group-icon-pair">
+                    </div>
+                  </div>
+                </div>
+                <p></p>
+              </div>
+              
+            </div>
+            <div class="topGroup">
+              
+              
+              
+              
+              
+              
+              <a class="todayCard" id="todayCard" target="_blank" rel="noopener" href="https://atlas.is-not-a.dev" style="z-index: 1;" draggable="false">
+                <div class="todayCard-info">
+                  <div class="todayCard-tips">Developer</div>
+                  <div class="todayCard-title">ΛTLΛS.IS-NOT-A.DEV</div>
+                </div>
+                <img class="todayCard-cover entered loaded" src="https://media.discordapp.net/attachments/1146406609094967337/1182513289025028116/2a45031cba82cb54233589fe20b7ba8f.jpg?ex=6584f852&amp;is=65728352&amp;hm=494900b9ba08eadb5e4371bb2c8bfe129c2c97c05fe5904f9d5ff7761b4e4703&amp;=&amp;format=webp&amp;width=662&amp;height=662" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://media.discordapp.net/attachments/1146406609094967337/1182513289025028116/2a45031cba82cb54233589fe20b7ba8f.jpg?ex=6584f852&amp;is=65728352&amp;hm=494900b9ba08eadb5e4371bb2c8bfe129c2c97c05fe5904f9d5ff7761b4e4703&amp;=&amp;format=webp&amp;width=662&amp;height=662" alt="" draggable="false" data-ll-status="loaded">
+                <div class="banner-button-group">
+                  
+                </div>
+              </a>
+            </div>
+            <link rel="stylesheet">
+          </div>
+        </div>
+        <link rel="stylesheet" href="/">
+        <main class="layout" id="content-inner">
+          <div class="recent-posts" id="recent-posts">
+            <div id="categoryBar">
+              
+            </div>
+            <a class="article-meta__" href="" tabindex="-1" draggable="false">
+            </a><div class="recent-post-item" onclick="pjax.loadUrl('')"><a class="article-meta__" href="" tabindex="-1" draggable="false">
+              </a><div class="article-meta__categories__box"><a class="article-meta__" href="" tabindex="-1" draggable="false"></a><a class="article-meta__categories" href="" draggable="false"></a><a class="unvisited-post" href="" title="" draggable="false"></a></div>
+              <div class="post_cover right"><a href="https://atpi.proj.sbs/api/ms/defkimia.json" target="_blank" title="" draggable="false"><img class="post_bg entered loaded" src="https://e1.pxfuel.com/desktop-wallpaper/936/864/desktop-wallpaper-chemical-reactions-a-blog-for-all-the-community-of-liceo-de-apodaca-1280x640-for-your-mobile-tablet-chemical-reaction.jpg" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://e1.pxfuel.com/desktop-wallpaper/936/864/desktop-wallpaper-chemical-reactions-a-blog-for-all-the-community-of-liceo-de-apodaca-1280x640-for-your-mobile-tablet-chemical-reaction.jpg" alt="" draggable="false" data-ll-status="loaded"></a></div>
+              <div class="recent-post-info">
+                <a class="article-title" href="https://atpi.proj.sbs/api/ms/defkimia.json" target="_blank" title="" draggable="false">DefKimia</a>
+                <div class="article-meta-wrap"><span class="post-meta-date"><i class=""></i><span class="article-meta-separator"></span><i class="" style="font-size: 15px; "></i></span><span class="article-meta "><p class="article-meta__" tabindex="-1" draggable="false"><span> <i class=""></i>#  Science</span><a class="article-meta__" href="" tabindex="-1" draggable="false"></a></p></span></div><a class="article-meta__" href="" tabindex="-1" draggable="false">
+                <div class="content"></div>
+              </a></div><a class="article-meta__" href="" tabindex="-1" draggable="false"></a></div><a class="article-meta__" href="" tabindex="-1" draggable="false">
+            </a><a class="article-meta__" href="" tabindex="-1" draggable="false">
+            </a>
+            
+<a class="article-meta__" href="" tabindex="-1" draggable="false">
+          </a><a class="article-meta__" href="" tabindex="-1" draggable="false"></a><a class="article-meta__" href="" tabindex="-1" draggable="false">
+          </a></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><a class="article-meta__" href="" tabindex="-1" draggable="false">
+              </a><div class="card-content"><a class="article-meta__" href="" tabindex="-1" draggable="false">
+                <div class="author-info-top" title="">
+                  <div class="card-info-avatar">
+                    <div class="avatar-img"><img src="https://i.pinimg.com/564x/eb/26/8b/eb268b063f1b1919ebe21dd14c6f3e51.jpg" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://i.pinimg.com/564x/eb/26/8b/eb268b063f1b1919ebe21dd14c6f3e51.jpg" alt="avatar" draggable="false" data-ll-status="loaded" class="entered loaded"></div>
+                    <div class="author-status-box">
+                      <div class="author-status">
+                        <g-emoji class="g-emoji" alias="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/270d.png">🐀
+                        </g-emoji>
+                        <span>on Studying</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="author-info__description">
+                  <div style="line-height:1.38;margin:0.6rem 0;text-align:centre;color:rgba(255, 255, 255, 0.8);">Hi! I
+                    hope you find AtPI useful. Feel free to report bugs and suggest features!</div>
+                </div>
+                </a><div class="author-info__bottom-group"><a class="article-meta__" href="" tabindex="-1" draggable="false">
+                  </a><a class="author-info__bottom-group-left" href="https://atlas.is-not-a.dev" target="_blank" draggable="false">
+                    <h1 class="author-info__name">Atlas</h1>
+                    <div class="author-info__desc" style="text-align:centre">I program stuff (sort of).</div>
+                  </a>
+                  <div class="card-info-social-icons is-center"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="sticky_layout">
+              <div class="card-widget">
+                <div class="card-">
+                  <div class="item-headline"></div>
+                  <div class="card-tag-cloud"><a style="font-size: 1.05rem;" draggable="false" href="https://atpi.proj.sbs/site/zh">ZH<sup>1</sup></a><a style="font-size: 1.05rem;" draggable="false" href="">MS<sup>1</sup></a><a style="font-size: 1.05rem;" draggable="false" href="https://atpi.proj.sbs/site/ru">RU<sup>1</sup></a></div>
+                </div>
+                <hr>
+                
+                
+                
+              </div>
+<div class="card-widget">
+                <div class="card-">
+                  <div class="item-headline"></div>
+                  <div class="card-tag-cloud"><div class="announcement_content>
+<a style=" font-size:=""><a href="https://atpi.proj.sbs/site/partnered">Our Partners</a></div></div>
+                </div>
+                <hr>
+                <div class="card-archives">
+                  <div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>?</span></div>
+                  <ul class="card-archive-list">
+                    <li class="card-archive-list-item">
+                      <a class="card-archive-list-link" draggable="false" href="https://github.com/AtlasL1/IMAG" target="_blank">
+                        <span class="card-archive-list-date">Fictional Organisation</span>
+                        <div class="card-archive-list-count-group"><span class="card-archive-list-count">-</span><span>IMAG</span></div>
+                      </a>
+                    </li>
+                    <li class="card-archive-list-item">
+                      
+                    </li>
+                    
+                    
+                  </ul>
+                </div>
+                <hr>
+                <div class="card-webinfo">
+                  <div class="item-headline"><i class="anzhiyufont anzhiyu-icon-chart-line"></i><span>网站资讯</span></div>
+                  
+                </div>
+              </div>
+            </div>
+        </div></main>
+        <footer id="footer">
+          <div id="footer-bar">
+            <div class="footer-bar-links">
+              <div class="footer-bar-left">
+                <div id="footer-bar-tips">
+                  <div class="copyright">© 2024 By <a class="footer-bar-link" href="https://atlas.is-not-a.dev" title="Atlas" target="_blank" draggable="false">Atlas</a></div>
+                </div>
+                <div id="footer-type-tips"></div>
+                <div class="js-pjax">
+                  <script>function subtitleType() {
+                      if (true) {
+                        window.typed = new Typed("#footer-type-tips", {
+                          strings: ["AtPI: Developed by Atlas.", "AtPI Documentation: Managed by Atlas.", "Docs Theme: AnZhiYu", "AtPI v0.0.1 2023"],
+                          startDelay: 300,
+                          typeSpeed: 150,
+                          loop: true,
+                          backSpeed: 50
+                        })
+                      } else {
+                        document.getElementById("footer-type-tips").innerHTML = '暮风轻轻拂 无声吹灭他眼中的火烛'
+                      }
+                    }
+
+                    if (true) {
+                      if (typeof Typed === 'function') {
+                        subtitleType()
+                      } else {
+                        getScript('https://npm-doge.42pic.top/typed.js@2.0.15/dist/typed.umd.js').then(subtitleType)
+                      }
+                    } else {
+                      subtitleType()
+                    }
+                  </script>
+                </div>
+              </div>
+              <div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="Theme" draggable="false">Theme</a><a class="footer-bar-link" target="_blank" rel="noopener" href="" title="" draggable="false"></a></div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <div id="sidebar">
+    <div id="sidebar-menus" class="">
+      <div class="avatar-img is-center"><img src="https://media.discordapp.net/attachments/1146406609094967337/1176450910117957713/Screenshot_2023-11-18_162030.png?ex=65815f4a&amp;is=656eea4a&amp;hm=927b68b39fce73ad1f79c72d641a425dcc710dd56433d50e615990e88bf1d5bc&amp;=&amp;format=webp&amp;quality=lossless&amp;width=645&amp;height=662" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://media.discordapp.net/attachments/1146406609094967337/1176450910117957713/Screenshot_2023-11-18_162030.png?ex=65815f4a&amp;is=656eea4a&amp;hm=927b68b39fce73ad1f79c72d641a425dcc710dd56433d50e615990e88bf1d5bc&amp;=&amp;format=webp&amp;quality=lossless&amp;width=645&amp;height=662" alt="avatar" data-ll-status="loaded" class="entered loaded"></div>
+      <div class="sidebar-site-data site-data is-center">
+        <a href="" title="archive" draggable="false">
+          <div class="headline">Works</div>
+          <div class="length-num">?</div>
+        </a>
+        <a href="" title="tag" draggable="false">
+          <div class="headline"></div>
+          <div class="length-num">?</div>
+        </a>
+        <a href="" title="category" draggable="false">
+          <div class="headline">Teams</div>
+          <div class="length-num">?</div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <div id="keyboard-tips">
+    <div class="keyboardTitle">博客快捷键</div>
+    <div class="keybordList">
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift K</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">关闭快捷键功能</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift A</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">打开中控台</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift M</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">播放/暂停音乐</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift D</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">深色/浅色显示模式</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift S</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">站内搜索</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift R</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">随机访问</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift H</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">Back to Top</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift F</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">友链鱼塘</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift L</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">友链页面</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift P</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">关于本站</div>
+        </div>
+      </div>
+      <div class="keybordItem">
+        <div class="keyGroup">
+          <div class="key">shift I</div>
+        </div>
+        <div class="keyContent">
+          <div class="content">原版右键菜单</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>var anzhiyu_intype = false
+    var anzhiyu_keyUpEvent_timeoutId = null
+    var anzhiyu_keyUpShiftDelayEvent_timeoutId = null
+    // 是否开启快捷键
+    anzhiyu_keyboard = localStorage.getItem("keyboardToggle") ? localStorage.getItem("keyboardToggle") : false;
+    function addKeyShotListener() {
+      const windowObject = window;
+      windowObject.removeEventListener("keydown", keyDownEvent);
+      windowObject.removeEventListener("keyup", keyUpEvent);
+      windowObject.addEventListener("keydown", keyDownEvent);
+      windowObject.addEventListener("keyup", keyUpEvent);
+    }
+
+    function keyDownEvent(event) {
+      const isEscapeKeyPressed = event.keyCode === 27;
+      const isShiftKeyPressed = event.shiftKey;
+      const isKeyboardEnabled = anzhiyu_keyboard;
+      const isInInputField = anzhiyu_intype;
+
+      if (isEscapeKeyPressed) {
+        anzhiyu.hideLoading();
+        anzhiyu.hideConsole();
+        rm.hideRightMenu();
+      }
+
+      if (isKeyboardEnabled && isShiftKeyPressed && !isInInputField) {
+        anzhiyu_keyUpShiftDelayEvent_timeoutId = setTimeout(() => {
+          switch (event.keyCode) {
+            case 16:
+              anzhiyu_keyUpEvent_timeoutId = setTimeout(() => {
+                document.querySelector("#keyboard-tips").classList.add("show");
+              }, 200);
+              break;
+            case 65:
+              anzhiyu.showConsole();
+              break;
+            case 77:
+              anzhiyu.musicToggle();
+              break;
+            case 75:
+              anzhiyu.keyboardToggle();
+              break;
+            case 73:
+              anzhiyu.rightMenuToggle();
+              break;
+            case 82:
+              toRandomPost();
+              break;
+            case 72:
+              pjax.loadUrl("/");
+              break;
+            case 68:
+              anzhiyu.switchDarkMode();
+              break;
+            case 70:
+              pjax.loadUrl("/fcircle/");
+              break;
+            case 76:
+              pjax.loadUrl("/link/");
+              break;
+            case 80:
+              pjax.loadUrl("/about/");
+              break;
+            default:
+              break;
+          }
+
+          event.preventDefault();
+        }, 100);
+      }
+    }
+
+    addKeyShotListener();
+
+    window.onfocus = function () {
+      document.getElementById("keyboard-tips").classList.remove("show")
+    }
+
+    function setInputFocusListener() {
+      const inputs = document.querySelectorAll("input, textarea");
+
+      inputs.forEach((input) => {
+        input.addEventListener("focus", () => {
+          setAnzhiyuIntype(true);
+        });
+
+        input.addEventListener("blur", () => {
+          setAnzhiyuIntype(false);
+        });
+      });
+    }
+
+    function setanzhiyuIntype(value) {
+      anzhiyu_intype = value;
+    }
+
+    function keyUpEvent(event) {
+      anzhiyu_keyUpEvent_timeoutId && clearTimeout(anzhiyu_keyUpEvent_timeoutId);
+      anzhiyu_keyUpShiftDelayEvent_timeoutId && clearTimeout(anzhiyu_keyUpShiftDelayEvent_timeoutId);
+      if (event.keyCode === 16) {
+        const keyboardTips = document.querySelector("#keyboard-tips");
+        keyboardTips.classList.remove("show");
+      }
+    }
+
+    function listenToPageInputPress() {
+      const inputElement = document.getElementById("toPageText");
+      const buttonElement = document.getElementById("toPageButton");
+
+      if (!inputElement) {
+        return;
+      }
+
+      inputElement.addEventListener("keydown", (event) => {
+        if (event.keyCode === 13) {
+          event.preventDefault();
+          anzhiyu.toPage();
+          pjax.loadUrl(buttonElement.href);
+        }
+      });
+
+      inputElement.addEventListener("input", () => {
+        const value = inputElement.value;
+        if (!value || value === "0") {
+          buttonElement.classList.remove("haveValue");
+        } else {
+          buttonElement.classList.add("haveValue");
+        }
+
+        const pageNumbers = document.querySelectorAll(".page-number");
+        const maxPageNumber = +pageNumbers[pageNumbers.length - 1].innerHTML;
+
+        if (+value > maxPageNumber) {
+          inputElement.value = maxPageNumber;
+        }
+      });
+    }
+
+    setInputFocusListener()
+  </script>
+  <div id="rightside" style="" class="">
+    <div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Mode"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="Screen Size"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div>
+
+  <div id="local-search">
+    <div class="search-dialog">
+      <nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav>
+      <div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span> 数据库加载中</span></div>
+      <div class="search-wrap">
+        <div id="local-search-input">
+          <div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div>
+        </div>
+        <hr>
+        <div id="local-search-results"></div>
+      </div>
+    </div>
+    <div id="search-mask"></div>
+  </div>
+  <div id="rightMenu">
+    <div class="rightMenu-group rightMenu-small">
+      <div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div>
+      <div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div>
+      <div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div>
+      <div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div>
+    </div>
+    <div class="rightMenu-group rightMenu-line rightMenuPlugin">
+      <div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span>
+      </div>
+      <div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span>
+      </div>
+      <a class="rightMenu-item" id="menu-commenttext" draggable="false"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a>
+      <div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div>
+      <div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span>
+      </div>
+      <div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span>
+      </div>
+      <div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div>
+      <div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div>
+      <div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div>
+      <div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div>
+      <div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span>
+      </div>
+      <div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div>
+      <div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div>
+      <div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div>
+    </div>
+    <div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-commentBarrage" draggable="false"><i class="anzhiyufont anzhiyu-icon-message"></i></a><a class="rightMenu-item" id="menu-darkmode" href="" draggable="false"><span class="menu-darkmode-text">浅色模式</span></a><a class="rightMenu-item" id="menu-translate" href="" draggable="false">
+    </a></div><a class="rightMenu-item" id="menu-translate" href="" draggable="false">
+  </a></div><a class="rightMenu-item" id="menu-translate" href="" draggable="false">
+  <div id="rightmenu-mask"></div>
+  <div id="he-plugin-simple"></div>
+  <script>var WIDGET = {
+      "CONFIG": {
+        "modules": "0124",
+        "background": "2",
+        "tmpColor": "FFFFFF",
+        "tmpSize": "16",
+        "cityColor": "FFFFFF",
+        "citySize": "16",
+        "aqiColor": "E8D87B",
+        "aqiSize": "16",
+        "alertIconSize": "18",
+        "padding": "10px 10px 10px 10px",
+        "shadow": "0",
+        "language": "auto",
+        "borderRadius": "20",
+        "fixed": "true",
+        "vertical": "top",
+        "horizontal": "left",
+        "left": "20",
+        "top": "7.1",
+        "key": "df245676fb434a0691ead1c63341cd94"
+      }
+    }
+  </script>
+  <div>
+    <script src="/site/js/main.js"></script>
+
+
+    <script>function panguFn() {
+        if (typeof pangu === 'object') pangu.autoSpacingPage()
+        else {
+          getScript('https://npm-doge.42pic.top/pangu@4.0.7/dist/browser/pangu.min.js')
+            .then(() => {
+              pangu.autoSpacingPage()
+            })
+        }
+      }
+
+      function panguInit() {
+        if (true) {
+          GLOBAL_CONFIG_SITE.isPost && panguFn()
+        } else {
+          panguFn()
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', panguInit)
+    </script>
+    <canvas id="universe" width="279" height="749"></canvas>
+    <script async="" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script>
+    <script async="" src="/anzhiyu/random.js"></script>
+    <script async="async">(function () {
+          var grt = new Date("12/31/2021 00:00:00"); //设置网站上线时间
+          var now = new Date();
+          var dnum;
+          var hnum;
+          var mnum;
+          var snum;
+          var nowHour;
+
+          // 计算并更新天数、小时数、分钟数和秒数
+          function updateTime() {
+            now = new Date(); // 更新 now 的值
+            nowHour = now.getHours(); // 更新 nowHour 的值
+            var days = (now - grt) / 1000 / 60 / 60 / 24;
+            dnum = Math.floor(days);
+            var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+            hnum = Math.floor(hours);
+            if (String(hnum).length == 1) {
+              hnum = "0" + hnum;
+            }
+            var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+            mnum = Math.floor(minutes);
+            if (String(mnum).length == 1) {
+              mnum = "0" + mnum;
+            }
+            var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+            snum = Math.round(seconds);
+            if (String(snum).length == 1) {
+              snum = "0" + snum;
+            }
+          }
+
+          // 更新网页中显示的网站运行时间
+          function updateHtml() {
+            const footer = document.getElementById("footer");
+            if (!footer) return
+            let currentTimeHtml = "";
+            if (nowHour < 18 && nowHour >= 9) {
+              // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+              currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+            } else {
+              // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+              let img = document.querySelector("#workboard .workSituationImg");
+              currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+            }
+
+            if (document.getElementById("runtimeTextTip")) {
+              document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+            }
+          }
+
+          setInterval(() => {
+            updateTime();
+            updateHtml();
+          }, 1000);
+        })();
+    </script>
+    <div class="js-pjax">
+      <script>(() => {
+          const getCommentUrl = () => {
+            const eleGroup = document.querySelectorAll('#recent-posts .article-title')
+            let urlArray = []
+            eleGroup.forEach(i => {
+              urlArray.push(i.getAttribute('href'))
+            })
+            return urlArray
+          }
+
+          const getCount = () => {
+            const runTwikoo = () => {
+              twikoo.getCommentsCount({
+                envId: 'https://twikoo.dishangti.top/',
+                region: 'ap-guangzhou',
+                urls: getCommentUrl(),
+                includeReply: false
+              }).then(function (res) {
+                document.querySelectorAll('#recent-posts .twikoo-count').forEach((item, index) => {
+                  item.innerText = res[index].count
+                })
+              }).catch(function (err) {
+                console.log(err)
+              })
+            }
+
+            if (typeof twikoo === 'object') {
+              runTwikoo()
+            } else {
+              getScript('https://npm-doge.42pic.top/twikoo@1.6.17/dist/twikoo.all.min.js').then(runTwikoo)
+            }
+          }
+
+          window.pjax ? getCount() : window.addEventListener('load', getCount)
+
+        })()
+      </script>
+      <script>(() => {
+            const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+            if ($mermaidWrap.length) {
+              window.runMermaid = () => {
+                window.loadMermaid = true
+                const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+                Array.from($mermaidWrap).forEach((item, index) => {
+                  const mermaidSrc = item.firstElementChild
+                  const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+                  const mermaidID = 'mermaid-' + index
+                  const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+                  mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+                    mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+                  })
+                })
+              }
+
+              const loadMermaid = () => {
+                window.loadMermaid ? runMermaid() : getScript('https://npm-doge.42pic.top/mermaid@9.1.7/dist/mermaid.min.js').then(runMermaid)
+              }
+
+              window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+            }
+          })()
+      </script><input type="hidden" name="page-type" id="page-type" value="anzhiyu">
+    </div>
+    <script>window.addEventListener('load', () => {
+        const changeContent = (content) => {
+          if (content === '') return content
+
+          content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+          content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+          content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+          content = content.replace(/<[^>]+>/g, "") // remove html tag
+
+          if (content.length > 150) {
+            content = content.substring(0, 150) + '...'
+          }
+          return content
+        }
+
+        const getComment = () => {
+          const runTwikoo = () => {
+            twikoo.getRecentComments({
+              envId: 'https://twikoo.dishangti.top/',
+              region: 'ap-guangzhou',
+              pageSize: 6,
+              includeReply: true
+            }).then(function (res) {
+              const twikooArray = res.map(e => {
+                return {
+                  'content': changeContent(e.comment),
+                  'avatar': e.avatar,
+                  'nick': e.nick,
+                  'url': e.url + '#' + e.id,
+                  'date': new Date(e.created).toISOString()
+                }
+              })
+
+              saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10 / (60 * 24))
+              generateHtml(twikooArray)
+            }).catch(function (err) {
+              const $dom = document.querySelector('#card-newest-comments .aside-list')
+              $dom.innerHTML = "无法获取评论，请确认相关配置是否正确"
+            })
+          }
+
+          if (typeof twikoo === 'object') {
+            runTwikoo()
+          } else {
+            getScript('https://npm-doge.42pic.top/twikoo@1.6.17/dist/twikoo.all.min.js').then(runTwikoo)
+          }
+        }
+
+        const generateHtml = array => {
+          let result = ''
+
+          if (array.length) {
+            for (let i = 0; i < array.length; i++) {
+              result += '<div class=\'aside-list-item\'>'
+
+              if (true) {
+                const name = 'data-lazy-src'
+                result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick}</span></div></a>`
+              }
+
+              result += `<div class='content'>
+                   <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+                   <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+                   </div>`
+            }
+          } else {
+            result += '没有评论'
+          }
+
+          let $dom = document.querySelector('#card-newest-comments .aside-list')
+          $dom.innerHTML = result
+          window.lazyLoadInstance && window.lazyLoadInstance.update()
+          window.pjax && window.pjax.refresh($dom)
+        }
+
+        const newestCommentInit = () => {
+          if (document.querySelector('#card-newest-comments .aside-list')) {
+            const data = saveToLocal.get('twikoo-newest-comments')
+            if (data) {
+              generateHtml(JSON.parse(data))
+            } else {
+              getComment()
+            }
+          }
+        }
+
+        newestCommentInit()
+        document.addEventListener('pjax:complete', newestCommentInit)
+      })
+    </script>
+    <script async="" data-pjax="" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.1/bubble/bubble.js"></script>
+    <script>var visitorMail = "";</script>
+    <script>//动态标题
+      let OriginTitile = document.title
+      let titleTime
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden) {
+          //离开当前页面时标签显示内容
+          clearTimeout(titleTime)
+        } else {
+          //两秒后变回正常标题
+          titleTime = setTimeout(function () {
+            document.title = OriginTitile
+          }, 2000)
+        }
+      })
+    </script>
+    <script data-pjax="true">if (document.querySelector(".comment-barrage")) {
+        var commentBarrageConfig = {
+          maxBarrage: 1,
+          barrageTime: 4000,
+          twikooUrl: "https://twikoo.dishangti.top/",
+          accessToken: "",
+          mailMd5: "",
+          pageUrl: window.location.pathname,
+          barrageTimer: [],
+          barrageList: [],
+          barrageIndex: 0,
+          dom: document.querySelector(".comment-barrage"),
+        };
+        var commentInterval = null;
+        var hoverOnCommentBarrage = false;
+
+        document.querySelector(".comment-barrage").addEventListener("mouseenter", function () {
+          hoverOnCommentBarrage = true;
+        });
+        document.querySelector(".comment-barrage").addEventListener("mouseleave", function () {
+          hoverOnCommentBarrage = false;
+        });
+
+        function initCommentBarrage() {
+          if (!commentBarrageConfig.dom) return;
+
+          var data = JSON.stringify({
+            event: "COMMENT_GET",
+            "commentBarrageConfig.accessToken": commentBarrageConfig.accessToken,
+            url: commentBarrageConfig.pageUrl,
+          });
+          var xhr = new XMLHttpRequest();
+          xhr.withCredentials = true;
+          xhr.addEventListener("readystatechange", function () {
+            if (this.readyState === 4 && this.responseText) {
+              commentBarrageConfig.barrageList = commentLinkFilter(JSON.parse(this.responseText).data);
+              commentBarrageConfig.dom.innerHTML = "";
+            }
+          });
+          xhr.open("POST", commentBarrageConfig.twikooUrl);
+          xhr.setRequestHeader("Content-Type", "application/json");
+          xhr.send(data);
+
+          clearInterval(commentInterval);
+          commentInterval = null;
+
+          commentInterval = setInterval(() => {
+            if (commentBarrageConfig.barrageList.length && !hoverOnCommentBarrage) {
+              popCommentBarrage(commentBarrageConfig.barrageList[commentBarrageConfig.barrageIndex]);
+              commentBarrageConfig.barrageIndex += 1;
+              commentBarrageConfig.barrageIndex %= commentBarrageConfig.barrageList.length;
+            }
+            if (
+              commentBarrageConfig.barrageTimer.length >
+              (commentBarrageConfig.barrageList.length > commentBarrageConfig.maxBarrage
+                ? commentBarrageConfig.maxBarrage
+                : commentBarrageConfig.barrageList.length) &&
+              !hoverOnCommentBarrage
+            ) {
+              removeCommentBarrage(commentBarrageConfig.barrageTimer.shift());
+            }
+          }, commentBarrageConfig.barrageTime);
+        }
+
+        function commentLinkFilter(data) {
+          data.sort((a, b) => {
+            return a.created - b.created;
+          });
+          let newData = [];
+          data.forEach(item => {
+            newData.push(...getCommentReplies(item));
+          });
+          return newData;
+        }
+
+        function getCommentReplies(item) {
+          if (item.replies) {
+            let replies = [item];
+            item.replies.forEach(item => {
+              replies.push(...getCommentReplies(item));
+            });
+            return replies;
+          } else {
+            return [];
+          }
+        }
+
+        function popCommentBarrage(data) {
+          let barrage = document.createElement("div");
+          barrage.className = "comment-barrage-item";
+          barrage.innerHTML = `
+                   <div class="barrageHead">
+                     <a class="barrageTitle ${data.mailMd5 === commentBarrageConfig.mailMd5 ? "barrageBloggerTitle" : ""
+            }" href="javascript:anzhiyu.scrollTo('#post-comment')"">
+                       ${data.mailMd5 === commentBarrageConfig.mailMd5 ? "博主" : "热评"}
+                     </a>
+                     <div class="barrageNick">${data.nick}</div>
+                     <img class="nolazyload barrageAvatar" src="https://cravatar.cn/avatar/${data.mailMd5}"/>
+                     <a class="comment-barrage-close" href="javascript:anzhiyu.switchCommentBarrage()"><i class="anzhiyufont anzhiyu-icon-xmark"></i></a>
+                   </div>
+                   <a class="barrageContent" href="#${data.id}">
+                     <object>${data.comment}</object>
+                   </a>
+                 `;
+          commentBarrageConfig.barrageTimer.push(barrage);
+          commentBarrageConfig.dom.append(barrage);
+        }
+
+        function removeCommentBarrage(barrage) {
+          barrage.className = "comment-barrage-item out";
+
+          setTimeout(() => {
+            if (commentBarrageConfig.dom && commentBarrageConfig.dom.contains(barrage)) {
+              commentBarrageConfig.dom.removeChild(barrage);
+            }
+          }, 1000);
+        }
+
+        // 自动隐藏
+        const commentEntryCallback = (entries) => {
+          const commentBarrage = document.querySelector(".comment-barrage");
+          const postComment = document.getElementById("post-comment");
+
+          entries.forEach(entry => {
+            if (postComment && commentBarrage && document.body.clientWidth > 768) {
+              commentBarrage.style.bottom = entry.isIntersecting ? `-${commentBarrageConfig.maxBarrage * 200}px` : "0";
+            }
+          });
+        };
+        // 创建IntersectionObserver实例
+        const observer = new IntersectionObserver(commentEntryCallback, {
+          root: null,
+          rootMargin: "0px",
+          threshold: 0
+        });
+        // 监视目标元素
+        const postCommentTarget = document.getElementById("post-comment");
+        if (postCommentTarget) {
+          observer.observe(postCommentTarget);
+        }
+
+        initCommentBarrage();
+
+        if (localStorage.getItem("commentBarrageSwitch") !== "false") {
+          document.querySelector(".comment-barrage").style.display = "flex";
+          document.querySelector(".menu-commentBarrage-text").textContent = "关闭热评";
+        } else {
+          document.querySelector(".comment-barrage").style.display = "none";
+          document.querySelector(".menu-commentBarrage-text").textContent = "显示热评";
+        }
+
+        document.addEventListener("pjax:send", function () {
+          clearInterval(commentInterval);
+        });
+
+      }
+    </script>
+    <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script>// 初始化函数
+      let rm = {};
+
+      //禁止图片与超链接拖拽
+      let aElements = document.getElementsByTagName("a");
+      for (let i = 0; i < aElements.length; i++) {
+        aElements[i].setAttribute("draggable", "false");
+        let imgElements = aElements[i].getElementsByTagName("img");
+        for (let j = 0; j < imgElements.length; j++) {
+          imgElements[j].setAttribute("draggable", "false");
+        }
+      }
+
+      // 显示菜单
+      rm.showRightMenu = function (isTrue, x = 0, y = 0) {
+        console.info(x, y)
+        let rightMenu = document.getElementById("rightMenu");
+        rightMenu.style.top = x + "px";
+        rightMenu.style.left = y + "px";
+        if (isTrue) {
+          rightMenu.style.display = "block";
+          stopMaskScroll();
+        } else {
+          rightMenu.style.display = "none";
+        }
+      };
+
+      // 隐藏菜单
+      rm.hideRightMenu = function () {
+        rm.showRightMenu(false);
+        let rightMenuMask = document.querySelector("#rightmenu-mask");
+        rightMenuMask.style.display = "none";
+      };
+
+      // 尺寸
+      let rmWidth = document.getElementById("rightMenu").offsetWidth;
+      let rmHeight = document.getElementById("rightMenu").offsetHeight;
+
+      // 重新定义尺寸
+      rm.reloadrmSize = function () {
+        rightMenu.style.visibility = "hidden";
+        rightMenu.style.display = "block";
+        // 获取宽度和高度
+        rmWidth = document.getElementById("rightMenu").offsetWidth;
+        rmHeight = document.getElementById("rightMenu").offsetHeight;
+        rightMenu.style.visibility = "visible";
+      };
+
+      // 获取点击的href
+      let domhref = "";
+      let domImgSrc = "";
+      let globalEvent = null;
+
+      var oncontextmenuFunction = function (event) {
+        if (document.body.clientWidth > 768) {
+          let pageX = event.clientX + 10; //加10是为了防止显示时鼠标遮在菜单上
+          let pageY = event.clientY;
+
+          //其他额外菜单
+
+          let href = event.target.href;
+          let imgsrc = event.target.currentSrc;
+
+          // 判断模式 扩展模式为有事件
+          let pluginMode = false;
+          $rightMenuOther.style.display = "block";
+          globalEvent = event;
+
+          // 检查是否需要复制 是否有选中文本
+          if (selectTextNow && window.getSelection()) {
+            pluginMode = true;
+            $rightMenuCopyText.style.display = "block";
+            $rightMenuCommentText.style.display = "block";
+            $rightMenuSearch.style.display = "block";
+            $rightMenuSearchBaidu.style.display = "block";
+          } else {
+            $rightMenuCopyText.style.display = "none";
+            $rightMenuCommentText.style.display = "none";
+            $rightMenuSearchBaidu.style.display = "none";
+            $rightMenuSearch.style.display = "none";
+          }
+
+          //检查是否右键点击了链接a标签
+          if (href) {
+            pluginMode = true;
+            $rightMenuNewWindow.style.display = "block";
+            $rightMenuCopyLink.style.display = "block";
+            domhref = href;
+          } else {
+            $rightMenuNewWindow.style.display = "none";
+            $rightMenuCopyLink.style.display = "none";
+          }
+
+          //检查是否需要复制图片
+          if (imgsrc) {
+            pluginMode = true;
+            $rightMenuCopyImg.style.display = "block";
+            $rightMenuDownloadImg.style.display = "block";
+            $rightMenuNewWindowImg.style.display = "block";
+            document.getElementById("rightMenu").style.width = "12rem"
+            domImgSrc = imgsrc;
+          } else {
+            $rightMenuCopyImg.style.display = "none";
+            $rightMenuDownloadImg.style.display = "none";
+            $rightMenuNewWindowImg.style.display = "none";
+          }
+
+          // 判断是否为输入框
+          if (event.target.tagName.toLowerCase() === "input" || event.target.tagName.toLowerCase() === "textarea") {
+            pluginMode = true;
+            $rightMenuPasteText.style.display = "block";
+          } else {
+            $rightMenuPasteText.style.display = "none";
+          }
+          const navMusicEl = document.querySelector("#nav-music");
+          //判断是否是音乐
+          if (navMusicEl && navMusicEl.contains(event.target)) {
+            pluginMode = true;
+            $rightMenuMusicToggle.style.display = "block";
+            $rightMenuMusicBack.style.display = "block";
+            $rightMenuMusicForward.style.display = "block";
+            $rightMenuMusicPlaylist.style.display = "block";
+            $rightMenuMusicCopyMusicName.style.display = "block";
+          } else {
+            $rightMenuMusicToggle.style.display = "none";
+            $rightMenuMusicBack.style.display = "none";
+            $rightMenuMusicForward.style.display = "none";
+            $rightMenuMusicPlaylist.style.display = "none";
+            $rightMenuMusicCopyMusicName.style.display = "none";
+          }
+
+          // 如果不是扩展模式则隐藏扩展模块
+          if (pluginMode) {
+            $rightMenuOther.style.display = "none";
+            $rightMenuPlugin.style.display = "block";
+          } else {
+            $rightMenuPlugin.style.display = "none";
+          }
+
+          rm.reloadrmSize();
+
+          // 鼠标默认显示在鼠标右下方，当鼠标靠右或靠下时，将菜单显示在鼠标左方\上方
+          if (pageX + rmWidth > window.innerWidth) {
+            pageX -= rmWidth + 10;
+          }
+          if (pageY + rmHeight > window.innerHeight) {
+            pageY -= pageY + rmHeight - window.innerHeight;
+          }
+
+          rm.showRightMenu(true, pageY, pageX);
+          document.getElementById("rightmenu-mask").style.display = "flex";
+          return false;
+        }
+      };
+
+      // 监听右键初始化
+      window.oncontextmenu = oncontextmenuFunction
+
+      // 下载图片状态
+      rm.downloadimging = false;
+
+      // 复制图片到剪贴板
+      rm.writeClipImg = function (imgsrc) {
+        console.log("按下复制");
+        rm.hideRightMenu();
+        anzhiyu.snackbarShow("正在下载中，请稍后", false, 10000);
+        if (rm.downloadimging == false) {
+          rm.downloadimging = true;
+          setTimeout(function () {
+            copyImage(imgsrc);
+            anzhiyu.snackbarShow("复制成功！图片已添加盲水印，请遵守版权协议");
+            rm.downloadimging = false;
+          }, "10000");
+        }
+      };
+
+      function imageToBlob(imageURL) {
+        const img = new Image();
+        const c = document.createElement("canvas");
+        const ctx = c.getContext("2d");
+        img.crossOrigin = "";
+        img.src = imageURL;
+        return new Promise(resolve => {
+          img.onload = function () {
+            c.width = this.naturalWidth;
+            c.height = this.naturalHeight;
+            ctx.drawImage(this, 0, 0);
+            c.toBlob(
+              blob => {
+                // here the image is a blob
+                resolve(blob);
+              },
+              "image/png",
+              0.75
+            );
+          };
+        });
+      }
+
+      async function copyImage(imageURL) {
+        const blob = await imageToBlob(imageURL);
+        const item = new ClipboardItem({"image/png": blob});
+        navigator.clipboard.write([item]);
+      }
+
+      rm.copyUrl = function (id) {
+        const input = document.createElement("input"); // Create a new <input> element
+        input.id = "copyVal"; // Set the id of the new element to "copyVal" // Append the new element to the end of the <body> element
+
+        const text = id;
+        input.value = text;
+        input.select();
+        input.setSelectionRange(0, input.value.length);
+        document.execCommand("copy");
+
+        input.remove(); // Remove the <input> element from the DOM
+      };
+
+      function stopMaskScroll() {
+        if (document.getElementById("rightmenu-mask")) {
+          let xscroll = document.getElementById("rightmenu-mask");
+          xscroll.addEventListener(
+            "mousewheel",
+            function (e) {
+              //阻止浏览器默认方法
+              rm.hideRightMenu();
+              // e.preventDefault();
+            },
+            {passive: true}
+          );
+        }
+        if (document.getElementById("rightMenu")) {
+          let xscroll = document.getElementById("rightMenu");
+          xscroll.addEventListener(
+            "mousewheel",
+            function (e) {
+              //阻止浏览器默认方法
+              rm.hideRightMenu();
+              // e.preventDefault();
+            },
+            {passive: true}
+          );
+        }
+      }
+
+      rm.rightmenuCopyText = function (txt) {
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(txt);
+        }
+        rm.hideRightMenu();
+      };
+
+      rm.copyPageUrl = function (url) {
+        if (!url) {
+          url = window.location.href;
+        }
+        rm.copyUrl(url);
+        anzhiyu.snackbarShow("复制本页链接地址成功", false, 2000);
+        rm.hideRightMenu();
+      };
+
+      rm.sharePage = function () {
+        var content = window.location.href;
+        rm.copyUrl(url);
+        anzhiyu.snackbarShow("复制本页链接地址成功", false, 2000);
+        rm.hideRightMenu();
+      };
+
+      // 复制当前选中文本
+      var selectTextNow = "";
+      document.onmouseup = document.ondblclick = selceText;
+
+      function selceText() {
+        var txt;
+        if (document.selection) {
+          txt = document.selection.createRange().text;
+        } else {
+          txt = window.getSelection().toString();
+        }
+        selectTextNow = txt !== "" ? txt : "";
+      }
+
+      // 读取剪切板
+      rm.readClipboard = function () {
+        if (navigator.clipboard) {
+          navigator.clipboard.readText().then(clipText => rm.insertAtCaret(globalEvent.target, clipText));
+        }
+      };
+
+      // 粘贴文本到焦点
+      rm.insertAtCaret = function (elemt, value) {
+        const startPos = elemt.selectionStart,
+          endPos = elemt.selectionEnd;
+        if (document.selection) {
+          elemt.focus();
+          var sel = document.selection.createRange();
+          sel.text = value;
+          elemt.focus();
+        } else {
+          if (startPos || startPos == "0") {
+            var scrollTop = elemt.scrollTop;
+            elemt.value = elemt.value.substring(0, startPos) + value + elemt.value.substring(endPos, elemt.value.length);
+            elemt.focus();
+            elemt.selectionStart = startPos + value.length;
+            elemt.selectionEnd = startPos + value.length;
+            elemt.scrollTop = scrollTop;
+          } else {
+            elemt.value += value;
+            elemt.focus();
+          }
+        }
+      };
+
+    </script>
+    <script data-pjax="">var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+      var pageHeaderEl = document.getElementById("page-header");
+      var navMusicEl = document.getElementById("nav-music");
+      var consoleEl = document.getElementById("console");
+      // 已随机的歌曲
+      var selectRandomSong = [];
+      // 音乐默认声音大小
+      var musicVolume = 0.8;
+      // 是否切换了周杰伦音乐列表
+      var changeMusicListFlag = false;
+      // 当前默认播放列表
+      var defaultPlayMusicList = [];
+    </script>
+
+  </div>
+
+
+
+</a></div>
+
+
+
+
+
+
+
+
+</body></html>
