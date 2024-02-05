@@ -393,5 +393,42 @@ class Planets(discord.ui.View):
         embed.set_thumbnail(url='https://media.discordapp.net/attachments/1146406609094967337/1202937988024111104/OIG3.png')
         await interaction.response.send_message(embed=embed, view=PlanetOptions())
 
+@bot.tree.command(name='famous-artworks', description='Fetch the info of a specific famous artwork from the Famous Artworks API.')
+async def info(interaction, name: str):
+    try:
+        response = requests.get('https://atpi.proj.sbs/api/famous-artworks.json')
+        response.raise_for_status()
+        data = response.json()
+        art_info = next((item for item in data if item['name'].lower() == name.lower()), None)
+        if art_info:
+            embed = discord.Embed(
+                title='Famous Artworks',
+                description=f'**Name**: {art_info["name"]}\n'
+                            f'**Artist**: {art_info["artist"]}\n'
+                            f'**Year**: {art_info["year"]}\n'
+                            f'**Location**: {art_info["location"]}\n',
+                colour=discord.Colour.teal()
+            )
+            embed.add_field(
+                name='Notes',
+                value=art_info["notes"],
+                inline=False
+            )
+            embed.add_field(
+                name='CREDITS',
+                value='[ATX Fine Arts](https://atxfinearts.com)',
+                inline=False
+            )
+            embed.set_image(
+                url=art_info["image"]
+            )
+            embed.set_footer(
+                text='https://atpi.proj.sbs/api/famous-artworks.json'
+            )
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message(f'The artwork `{name}` was not found in the data.', ephemeral=True)
+    except Exception as e:
+        await interaction.response.send_message(f'**An error occurred while fetching data from the API**:\n{e}', ephemeral=True)
 
 bot.run('TOKEN')
