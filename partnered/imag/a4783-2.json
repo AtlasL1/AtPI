@@ -1,0 +1,17 @@
+[
+    {
+        "name": "A4783-2",
+        "rightAscension": "4h 42m 48.49686s",
+        "declination": "31° 42' 23.5337\"",
+        "apparentMagnitude": "18.3 - ~11.9",
+        "evolutionaryStage": "white dwarf",
+        "spectralType": "B2 Ia",
+        "radialVelocity": "-5.27±95.40 km/s",
+        "parallax": "1.2341 ± 2.8599 mas",
+        "mass": "6.5 solar mass",
+        "radius": "> 5.35 ± 0.864 solar radius",
+        "luminousity": "498.39 solar luminosityy",
+        "surfaceGravity": "8.49 cgs",
+        "temperature": "3477±89 K"
+    }
+]
