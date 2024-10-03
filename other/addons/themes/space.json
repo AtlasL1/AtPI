@@ -1,0 +1,159 @@
+{
+  "name": "",
+  "description": "Warmth of a bonfire, For Enmity on iOS.",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Phoenix_YYZ",
+      "id": "761453819074183179"
+    }
+  ],
+  "theme_color_map": {
+    "KEYBOARD": [
+      "#111111",
+      "#111111"
+    ],
+    "HEADER_PRIMARY": [
+      "#e69138",
+      "#e69138"
+    ],
+    "HEADER_SECONDARY": [
+      "#353935",
+      "#353935"
+    ],
+    "TEXT_NORMAL": [
+      "#FFFFFF",
+      "#FFFFFF"
+    ],
+    "TEXT_MUTED": [
+      "#353935",
+      "#353935"
+    ],
+    "TEXT_LINK": [
+      "#C0C0C0",
+      "#C0C0C0"
+    ],
+    "CHANNEL_ICON": [
+      "#e69138",
+      "#e69138"
+    ],
+    "INTERACTIVE_NORMAL": [
+      "#e69138",
+      "#e69138"
+    ],
+    "INTERACTIVE_HOVER": [
+      "#000000",
+      "#000000"
+    ],
+    "INTERACTIVE_ACTIVE": [
+      "#e69138",
+      "#060607"
+    ],
+    "INTERACTIVE_MUTED": [
+      "#747474",
+      "#c7ccd1"
+    ],
+    "BACKGROUND_PRIMARY": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_SECONDARY": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_SECONDARY_ALT": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_TERTIARY": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_ACCENT": [
+      "#e69138",
+      "#e69138"
+    ],
+    "BACKGROUND_FLOATING": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_MOBILE_PRIMARY": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_MOBILE_SECONDARY": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_NESTED_FLOATING": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_MESSAGE_HOVER": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_MODIFIER_HOVER": [
+      "#000000",
+      "#000000"
+    ],
+    "BACKGROUND_MODIFIER_ACTIVE": [
+      "rgba(255, 255, 255, 0.03)",
+      "hsla(214, 9.9%, 50.4%, 0.16)"
+    ],
+    "BACKGROUND_MODIFIER_SELECTED": [
+      "rgba(255, 255, 255, 0.04)",
+      "hsla(214, 9.9%, 50.4%, 0.24)"
+    ],
+    "BACKGROUND_MODIFIER_ACCENT": [
+      "#000000",
+      "hsla(240, 7.7%, 2.5%, 0.08)"
+    ],
+    "SCROLLBAR_THIN_THUMB": [
+      "#e69138",
+      "hsla(217, 7.6%, 33.5%, 0.3)"
+    ],
+    "SCROLLBAR_THIN_TRACK": [
+      "transparent",
+      "hsla(0, 0%, 0%, 0)"
+    ],
+    "SCROLLBAR_AUTO_THUMB": [
+      "#000000",
+      "#000000"
+    ],
+    "SCROLLBAR_AUTO_TRACK": [
+      "rgba(0, 0, 0, 0.1)",
+      "#f2f2f2"
+    ],
+    "CHANNELTEXTAREA_BACKGROUND": [
+      "#111111",
+      "#ebedef"
+    ],
+    "CHANNELS_DEFAULT": [
+      "#e69138",
+      "#e69138"
+    ]
+  },
+  "colours": {
+    "PRIMARY_DARK": "#e69138",
+    "PRIMARY_DARK_100": "#e69138",
+    "PRIMARY_DARK_200": "#e69138",
+    "PRIMARY_DARK_300": "#e69138",
+    "PRIMARY_DARK_360": "#e69138",
+    "PRIMARY_DARK_500": "#111111",
+    "PRIMARY_DARK_600": "#000000",
+    "PRIMARY_DARK_630": "#e69138",
+    "PRIMARY_DARK_700": "#000000",
+    "PRIMARY_DARK_800": "#000000",
+    "PRIMARY_DARK_900": "#e69138"
+  },
+  "unsafe_colors": {
+    "CHAT_GREY": "#000000"
+  },
+  "background": {
+    "blur": 0,
+    "url": "https://i.imgur.com/cZmDW1A.jpeg",
+    "alpha": 0.6
+  },
+  "color": "#e69138"
+}
