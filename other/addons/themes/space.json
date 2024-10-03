@@ -10,9 +10,15 @@
   ],
   "background": {
     "blur": 0,
-    "url": "https://i.imgur.com/cZmDW1A.jpeg", 
+    "url": "https://i.imgur.com/cZmDW1A.jpeg",
     "alpha": 0.6,
     "background-repeat": "no-repeat",
     "background-size": "cover"
+  },
+  "theme_color_map": {
+    "BACKGROUND_FLOATING": [
+      "rgba(0, 0, 0, 0.5)",
+      "rgba(0, 0, 0, 0.5)"
+    ]
   }
 }
