@@ -30,8 +30,8 @@
       "#353935"
     ],
     "TEXT_LINK": [
-      "#C0C0C0",
-      "#C0C0C0"
+      "#FFD700",
+      "#FFD700"
     ],
     "CHANNEL_ICON": [
       "#e69138",
@@ -153,7 +153,9 @@
   "background": {
     "blur": 0,
     "url": "https://i.imgur.com/cZmDW1A.jpeg",
-    "alpha": 0.6
+    "alpha": 0.6,
+    "background-repeat": "no-repeat",
+    "background-size": "cover"
   },
   "color": "#e69138"
 }
