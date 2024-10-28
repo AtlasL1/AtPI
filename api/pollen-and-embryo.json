@@ -1,0 +1,60 @@
+{
+  "development_of_pollen_grains_and_embryo_sac": {
+    "pollen_grain_formation": {
+      "description": "The anther is a critical part of the flower that generates pollen grains.",
+      "steps": [
+        {
+          "step": 1,
+          "details": "As the anther matures, tissues form within each lobe to create four pollen sacs, each containing numerous diploid pollen mother cells."
+        },
+        {
+          "step": 2,
+          "details": "The pollen mother cells undergo meiosis, resulting in the formation of four haploid microspore cells known as tetrads, with each microspore developing into a pollen grain."
+        },
+        {
+          "step": 3,
+          "details": "The nucleus of each pollen grain divides by mitosis to yield two nuclei: the generative nucleus and the tube nucleus. When fully mature, the pollen sac ruptures, releasing the pollen grains."
+        }
+      ]
+    },
+    "embryo_sac_formation": {
+      "description": "The ovule, located inside the carpel, is essential for developing the embryo sac.",
+      "structure": {
+        "ovule": {
+          "formation": "Develops from a tissue layer within the ovary.",
+          "connections": {
+            "funicle": "Links the ovule to the ovary's wall.",
+            "placenta": "Supplies nutrients to the ovules.",
+            "nucellus": "A tissue group that evolves into the integument."
+          },
+          "integument": "Forms dual layers surrounding the ovule.",
+          "micropyle": {
+            "description": "A small aperture at the integument's end.",
+            "function": "Facilitates air and water entry into the seed during germination."
+          },
+          "megaspore_mother_cell": {
+            "description": "Transforms into the embryo sac."
+          }
+        }
+      },
+      "steps": [
+        {
+          "step": 1,
+          "details": "The megaspore mother cell (2n) divides through meiosis, yielding four haploid megaspore cells (n)."
+        },
+        {
+          "step": 2,
+          "details": "Only one of the haploid megaspore cells matures, while the remaining three degenerate."
+        },
+        {
+          "step": 3,
+          "details": "The viable megaspore cell's nucleus undergoes three mitotic divisions, resulting in eight nuclei."
+        },
+        {
+          "step": 4,
+          "details": "Three nuclei migrate to one end of the embryo sac to form three antipodal cells. The other three nuclei position themselves at the opposite end to create two synergid cells and one egg cell, with the central two nuclei forming polar nuclei."
+        }
+      ]
+    }
+  }
+}
