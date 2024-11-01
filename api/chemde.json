@@ -42,7 +42,7 @@
     {"term": "Alloy", "definition": "A mixture of two or more elements in a certain proportion, with a metal as the main component."},
     {"term": "Polymer", "definition": "A long-chain molecule formed from many repeating small units called monomers."},
     {"term": "Composite Material", "definition": "A new material produced from a mixture of two or more substances such as metals, alloys, glass, ceramics, and polymers that have better properties than the original materials."},
-    {"term": "Reaction Rate", "definition": "A measure of how quickly a substance reacts to form products per unit time."},
+    {"term": "Rate of Reaction", "definition": "A measure of how quickly a substance reacts to form products per unit time."},
     {"term": "Carbon Compound", "definition": "A compound that contains carbon as one of its constituent elements."},
     {"term": "Hydrocarbon", "definition": "An organic compound consisting of only hydrogen and carbon atoms."},
     {"term": "Isomer", "definition": "Compounds with the same molecular formula but different structural formulas."},
